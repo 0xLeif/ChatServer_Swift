@@ -1,3 +1,9 @@
+# Team Roles
+Zach: Archiect, Tech Support, Dev
+Emma: Scribe, QA, Dev
+Sab: Team Leader, Dev
+Cela: Dev, QA
+
 Resources:
 
 Learning Video: https://videos.raywenderlich.com/courses/77-server-side-swift-with-perfect/lessons/4
