@@ -16,7 +16,7 @@ final class MainController {
     
     var routes: [Route] {
         return [
-            Route(method: .get, uri: "/ga", handler: indexView),
+            Route(method: .get, uri: "/", handler: indexView),
             Route(method: .post, uri: "/ga", handler: addItem),
             Route(method: .post, uri: "/ga/{id}/delete", handler: deleteItem)
         ]
