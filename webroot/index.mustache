@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>GroceryAid v2</title>
+</head>
+<body>
+
+<div class="container">
+
+<div class="row">
+<div class="u-full-width">
+<h2>GroceryAid v2</h2>
+</div>
+</div>
+
+<div class="row">
+<div class="u-full-width">
+<h4>Add New Items to List</h4>
+</div>
+</div>
+
+<form action="/ga" method="post">
+<div class="row">
+<div class="three columns">
+<label>Name</label>
+<input name="name" class="u-full-width" placeholder="name e.g. Eggs" />
+</div>
+<div class="nine columns">
+<label>Amount</label>
+<input name="amount" class="u-full-width" placeholder="Amount e.g. 12" />
+<input class="button-primary" type="submit" value="Add Item" />
+</div>
+</div>
+</form>
+
+{{#groceries}}
+<div class="row">
+<div class="three columns">
+<h5><span>{{name}}</span></h5>
+</div>
+<div class="six columns">
+<p><span>{{amount}}</span></p>
+</div>
+<div class="three columns">
+<form action="/ga/{{id}}/delete" method="post">
+<input type="submit" value="Delete"/>
+</form>
+</div>
+</div>
+{{/groceries}}
+
+</div>
+
+</body>
+</html>
+
