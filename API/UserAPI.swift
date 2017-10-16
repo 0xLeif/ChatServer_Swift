@@ -43,32 +43,27 @@ class UserAPI {
         guard let user = try User.first() else {
             return "No item to update"
         }
-        
         try user.delete()
         return try all()
     }
     
-    static func newUser(withHandle handle: String, rooms: [Room], friends: [User]) throws -> [String: Any] {
+    static func newUser(withHandle handle: String, rooms: [Room] = [], friends: [User] = []) throws -> [String: Any] {
         let user = User()
         user.handle = handle
         user.rooms = rooms
         user.friends = friends
-        try user.save { handle in
-            user.handle = handle as! String
-        }
+		try user.create()
         return user.asDictionary()
     }
     
     static func newUser(withJSONRequest json: String?) throws -> String {
         guard let json = json,
             let dict = try json.jsonDecode() as? [String: Any],
-            let handle = dict["handle"] as? String,
-            let rooms = dict["rooms"] as? [Room],
-            let friends = dict["friends"] as? [User] else {
+            let handle = dict["handle"] as? String else {
                 return "Invalid Params"
         }
         
-        return try newUser(withHandle: handle, rooms: rooms, friends: friends).jsonEncodedString()
+        return try newUser(withHandle: handle, rooms: [], friends: []).jsonEncodedString()
     }
     
     static func updateUser(withJSONRequest json: String?) throws -> String {

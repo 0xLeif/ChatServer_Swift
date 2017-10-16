@@ -17,8 +17,7 @@ final class MainController {
     var routes: [Route] {
         return [
             Route(method: .get, uri: "/", handler: indexView),
-            Route(method: .post, uri: "/ga", handler: addItem),
-            Route(method: .post, uri: "/ga/{id}/delete", handler: deleteItem)
+            Route(method: .post, uri: "/", handler: addItem),
         ]
     }
     
@@ -37,17 +36,14 @@ final class MainController {
     
     func addItem(request: HTTPRequest, response: HTTPResponse) {
         do {
-            guard let handle = request.param(name: "handle"),
-                let rooms = request.param(name: "rooms") as? [Room],
-                let friends = request.param(name: "friends") as? [User] else {
+            guard let handle = request.param(name: "handle") else {
                     response.completed(status: .badRequest)
                     return
             }
             
-            _ = try UserAPI.newUser(withHandle: handle, rooms: rooms, friends: friends)
-            response.setHeader(.location, value: "/ga")
+            _ = try UserAPI.newUser(withHandle: handle, rooms: [], friends: [])
+            response.setHeader(.location, value: "/")
                 .completed(status: .movedPermanently)
-            
         } catch {
             response.setBody(string: "Error handling request: \(error)")
                 .completed(status: .internalServerError)
