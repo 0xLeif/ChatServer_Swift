@@ -10,10 +10,10 @@ import StORM
 import PostgresStORM
 
 class Room: PostgresStORM {
-    var roomName: String
-    var roomAdmin: User
-    var users: [User]
-    var messages: [Message]
+    var roomName: String = ""
+    var roomAdmin: User = User()
+    var users: [User] = []
+    var messages: [Message] = []
     
     
 }

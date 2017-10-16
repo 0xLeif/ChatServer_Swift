@@ -14,7 +14,7 @@ class User: PostgresStORM {
     var rooms: [Room]
     var friends: [User]
     
-    init() {
+    override init() {
         handle = "unnamed"
         rooms = []
         friends = []
@@ -49,7 +49,7 @@ class User: PostgresStORM {
     
     func asDictionary() -> [String: Any] {
         return [
-            "handle": name,
+            "handle": handle,
             "rooms": rooms,
             "friends": friends
         ]
@@ -68,10 +68,10 @@ class User: PostgresStORM {
         return getObj.rows().first
     }
     
-    static func user(withHandle handle:String) throws -> [User] {
+    static func user(withHandle handle:String) throws -> User {
         let getObj = User()
-        var findObj = ["handle": handle]
+        let findObj = ["handle": handle]
         try getObj.find(findObj)
-        return getObj.rows()
+        return getObj
     }
 }

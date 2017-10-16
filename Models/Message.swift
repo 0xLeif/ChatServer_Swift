@@ -11,7 +11,13 @@ import PostgresStORM
 
 class Message: PostgresStORM {
     var message: String
-    var senderID: int
-    var roomID: int
-    var timestamp: Date
+    var senderID: String
+    var roomID: Int
+    let timestamp: Date = Date()
+    
+    override init() {
+        message = ""
+        senderID = ""
+        roomID = 0
+    }
 }
