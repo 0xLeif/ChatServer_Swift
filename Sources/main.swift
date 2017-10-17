@@ -29,8 +29,12 @@ PostgresConnector.password    = "root"
 PostgresConnector.database    = "ChatServer"
 PostgresConnector.port        = 5432
 
-let setupObj = User()
-try? setupObj.setup()
+let userSetupObj = User()
+try? userSetupObj.setup()
+
+let roomSetupObj = Room()
+try? roomSetupObj.setup()
+
 
 let server = HTTPServer()
 server.serverPort = 8080
@@ -52,6 +56,7 @@ func JSON(message: String, response: HTTPResponse) {
 }
 
 let main = MainController()
+
 server.addRoutes(Routes(main.routes))
 
 do {
