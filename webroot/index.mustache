@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ChatServer</title>
+</head>
+
+<body>
+<form method="post">
+User Handle:<br>
+<input type="text" name = "handle"><br>
+</form>
+{{#rooms}}
+
+	<div class="row">
+		<div class="three columns">
+		<h5><span>{{name}}</span></h5>
+		</div>
+		<div class="six columns">
+		<p><span>{{admin}}</span></p>
+		</div>
+		<div class="three columns">
+		<form action="/ga/{{id}}/delete" method="post">
+		<input type="submit" value="Delete"/>
+		</form>
+		</div>
+	</div>
+
+{{/rooms}}
+</body>
+
+</html>
+
