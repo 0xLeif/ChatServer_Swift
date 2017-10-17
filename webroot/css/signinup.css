@@ -1,0 +1,182 @@
+
+
+.signinup {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100%;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(162, 167, 221, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.signinup .stacked-group {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 1024px;
+  left                : 0px;
+  top                 : 0px;
+  position            : absolute;
+  margin              : 0;
+  height              : auto;
+}
+.signinup .stacked-group .rectangle2 {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 1024px;
+  position            : relative;
+  margin              : 0;
+  height              : auto;
+}
+.signinup .buttons-primary {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 145px;
+  left                : 440px;
+  top                 : 512px;
+  position            : absolute;
+  margin              : 0;
+  height              : 36px;
+}
+.signinup .buttons-primary .button-background {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 149px;
+  left                : 0px;
+  top                 : 0px;
+  position            : absolute;
+  margin              : 0;
+  height              : 40px;
+}
+.signinup .buttons-primary .o-k {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : auto;
+  left                : 49px;
+  top                 : 9px;
+  position            : absolute;
+  margin              : 0;
+  height              : auto;
+  font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.signinup .input-textarea {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 300px;
+  left                : 362px;
+  top                 : 437px;
+  position            : absolute;
+  margin              : 0;
+  height              : 40px;
+}
+.signinup .input-textarea .input-background {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 300px;
+  left                : 0px;
+  top                 : 0px;
+  position            : absolute;
+  margin              : 0;
+  height              : 40px;
+}
+.signinup .input-textarea .text-area-content {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 278px;
+  left                : 11px;
+  top                 : 2px;
+  position            : absolute;
+  margin              : 0;
+  height              : auto;
+  font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : justify;
+  line-height         : 20.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
