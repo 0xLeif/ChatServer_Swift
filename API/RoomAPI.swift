@@ -46,7 +46,7 @@ class RoomAPI {
 		return try all()
 	}
 	
-	static func newRoom(withName roomName: String, admin: User, users: [User] = [], messages: [Message] = []) throws -> [String: Any] {
+	static func newRoom(withName roomName: String, admin: String, users: [User] = [], messages: [Message] = []) throws -> [String: Any] {
 		let room = Room(withAdmin: admin, andRoomName: roomName)
 		room.users = users
 		room.messages = messages
@@ -58,14 +58,14 @@ class RoomAPI {
 		guard let json = json,
 			let dict = try json.jsonDecode() as? [String: Any],
 			let name = dict["name"] as? String,
-			let admin = dict["admin"] as? User else {
+			let admin = dict["admin"] as? String else {
 				return "Invalid Params"
 		}
 		
 		return try newRoom(withName: name, admin: admin, users: [], messages: []).jsonEncodedString()
 	}
 	
-	static func updateUser(withJSONRequest json: String?) throws -> String {
+	static func updateRoom(withJSONRequest json: String?) throws -> String {
 		guard let json = json,
 			let dict = try json.jsonDecode() as? [String: Any],
 			let roomName = dict["name"] as? String,
@@ -75,7 +75,7 @@ class RoomAPI {
 				return "Invalid parameters"
 		}
 		let room = try Room.with(name: roomName)
-		room.roomAdmin = admin
+		room.roomAdmin = admin.handle
 		room.users = users
 		room.messages = messages
 		try room.save()

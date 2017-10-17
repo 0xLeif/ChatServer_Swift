@@ -11,20 +11,20 @@ import PostgresStORM
 
 class Room: PostgresStORM {
     var roomName: String = ""
-    var roomAdmin: User
+    var roomAdmin: String
     var users: [User]
     var messages: [Message]
 	
 	override init() {
 		roomName = "unnamed"
-		roomAdmin = User()
+		roomAdmin = ""
 		users = []
 		messages = []
 	}
 	
-	init(withAdmin admin: User, andRoomName name: String){
+	init(withAdmin admin: String, andRoomName name: String){
 		roomName = name
-		roomAdmin = User()
+		roomAdmin = admin
 		users = []
 		messages = []
 	}
@@ -35,8 +35,8 @@ class Room: PostgresStORM {
 	override open func table() -> String { return "rooms" }
 	
 	override func to(_ this: StORMRow) {
-		roomAdmin = this.data["admin"] as? User ?? User()
-		roomName = this.data["name"] as? String ?? ""
+		roomAdmin = this.data["roomadmin"] as? String ?? "nil"
+		roomName = this.data["roomname"] as? String ?? ""
 		messages = this.data["messages"] as? [Message] ?? []
 		users = this.data["users"] as? [User] ?? []
 	}

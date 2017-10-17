@@ -25,7 +25,7 @@ final class MainController {
         do {
             
             var values = MustacheEvaluationContext.MapType()
-            values["users"] = try UserAPI.allAsDictionary()
+            values["rooms"] = try RoomAPI.allAsDictionary()
             mustacheRequest(request: request, response: response, handler: MustacheHelper(values: values), templatePath: request.documentRoot + "/index.mustache")
             
         } catch {
@@ -40,8 +40,8 @@ final class MainController {
                     response.completed(status: .badRequest)
                     return
             }
-            
-            _ = try UserAPI.newUser(withHandle: handle, rooms: [], friends: [])
+            _ = try RoomAPI.newRoom(withName: "Free", admin: User.user(withHandle: "leif").handle, users: [], messages: [])
+//            _ = try UserAPI.newUser(withHandle: handle, rooms: [], friends: [])
             response.setHeader(.location, value: "/")
                 .completed(status: .movedPermanently)
         } catch {
