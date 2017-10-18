@@ -30,11 +30,11 @@ class RoomAPI {
 	}
 	
 	static func matchingShort(_ matchingShort: String) throws -> Room? {
-		return try Room.with(name: matchingShort)
+		return try Room.with(roomName: matchingShort)
 	}
 	
 	static func delete(name: String) throws {
-		let room = try Room.with(name: name)
+		let room = try Room.with(roomName: name)
 		try room.delete()
 	}
 	
@@ -68,16 +68,17 @@ class RoomAPI {
 	static func updateRoom(withJSONRequest json: String?) throws -> String {
 		guard let json = json,
 			let dict = try json.jsonDecode() as? [String: Any],
-			let roomName = dict["name"] as? String,
-			let admin = dict["admin"] as? User,
-			let users = dict["users"] as? [User],
-			let messages = dict["messages"] as? [Message] else {
+			let roomName = dict["roomname"] as? String,
+			let admin = dict["roomadmin"] as? String,
+            let users = dict["users"] as? [User]
+//            let messages = dict["messages"] as? [Message]
+        else {
 				return "Invalid parameters"
 		}
-		let room = try Room.with(name: roomName)
-		room.roomAdmin = admin.handle
+		let room = try Room.with(roomName: roomName)
+		room.roomAdmin = admin
 		room.users = users
-		room.messages = messages
+	//	room.messages = messages
 		try room.save()
 		
 		return try room.asDictionary().jsonEncodedString()

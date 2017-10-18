@@ -16,8 +16,9 @@ final class MainController {
     
     var routes: [Route] {
         return [
-            Route(method: .get, uri: "/rooms?handle={handle}&roomID={room}", handler: indexView),
+            Route(method: .get, uri: "/rooms/{room}/handle/{handle}", handler: indexView),
             Route(method: .get, uri: "/login", handler: redirectView),
+            Route(method: .post, uri: "/rooms/{room}/handle/{handle}", handler: indexView),
             Route(method: .post, uri: "/login", handler: addItem),
             Route(method: .get, uri: "/home/handle/{handle}", handler: indexView),
         ]
@@ -37,6 +38,11 @@ final class MainController {
 		}
 	}
     
+    func sendMessageView(request: HTTPRequest, response: HTTPResponse) {
+        
+        
+    }
+    
     func indexView(request: HTTPRequest, response: HTTPResponse) {
         do {
             guard let handle = String(request.urlVariables["handle"]!) else {
@@ -46,8 +52,17 @@ final class MainController {
             var values = MustacheEvaluationContext.MapType()
             values["rooms"] = try RoomAPI.allAsDictionary()
             values["handle"] = handle
-            mustacheRequest(request: request, response: response, handler: MustacheHelper(values: values), templatePath: request.documentRoot + "/chathome.mustache")
+            if let roomName = request.urlVariables["room"] {
+                values["roomname"] = roomName
+                
+                if let messageSent = request.param(name: "message") {
+                    _ = try MessageAPI.newMessage(withText: messageSent, senderHandle: handle, roomName: roomName)
+                    values["messages"] = try MessageAPI.allAsDictionary()
+                }
+                
+            }
             
+            mustacheRequest(request: request, response: response, handler: MustacheHelper(values: values), templatePath: request.documentRoot + "/chathome.mustache")
         } catch {
             response.setBody(string: "Error handling request: \(error)")
                 .completed(status: .internalServerError)

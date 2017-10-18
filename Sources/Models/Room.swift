@@ -37,8 +37,9 @@ class Room: PostgresStORM {
 	override func to(_ this: StORMRow) {
 		roomAdmin = this.data["roomadmin"] as? String ?? "nil"
 		roomName = this.data["roomname"] as? String ?? ""
-		messages = this.data["messages"] as? [Message] ?? []
-		users = this.data["users"] as? [User] ?? []
+		//messages = this.data["messages"] as? [Message] ?? []
+		//users = this.data["users"] as? [User] ?? []
+        
 	}
 	
 	func rows() -> [Room] {
@@ -53,10 +54,10 @@ class Room: PostgresStORM {
 	
 	func asDictionary() -> [String: Any] {
 		return [
-			"name": roomName,
-			"admin": roomAdmin,
+			"roomname": roomName,
+			"roomadmin": roomAdmin,
 			"users": users,
-			"messages": messages
+			"messages": messages.map{ $0.asDictionary()}
 		]
 	}
 	
@@ -73,9 +74,9 @@ class Room: PostgresStORM {
 		return getObj.rows().first
 	}
 	
-	static func with(name: String) throws -> Room {
+	static func with(roomName: String) throws -> Room {
 		let getObj = Room()
-		let findObj = ["name": name]
+		let findObj = ["roomname": roomName]
 		try getObj.find(findObj)
 		return getObj
 	}

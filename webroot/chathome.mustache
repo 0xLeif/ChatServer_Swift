@@ -13,8 +13,8 @@
 <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
                 <div class="rectangle" style=" z-index: 5;">
                     {{#rooms}}
-                        <form action="/room?name={{name}}handle=" method="get">
-                            <input type="submit" value={{name}}><br>
+<form action="/rooms/{{roomname}}/handle/{{handle}}" method="get">
+                            <input type="submit" value={{roomname}}>
                         </form>
                     {{/rooms}}
                 </div>
@@ -22,11 +22,18 @@
 
                 </div>
                 <div class="label1">
-                    <h1>Current Room: </h1>
+                    <h1>Current Room: {{roomname}} </h1>
                     <h1>Current Handle: {{handle}}</h1>
                 </div>
                 <div class="view2">
-                    Room Chat {{#currentRoomMessages}}
+                    <h1>Room Chat</h1>
+                    {{#messages}}
+                    <h1> {{message}}: Sent By:{{senderhandle}} </h1>
+                    {{/messages}}
+                    <form action="/rooms/{{roomname}}/handle/{{handle}}" method="post">
+                        <input type="text" name="message">
+                        <input type="submit">
+                    </form>
                 </div>
                 <div class="view3">
                 </div>
