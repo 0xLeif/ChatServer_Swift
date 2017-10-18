@@ -35,6 +35,9 @@ try? userSetupObj.setup()
 let roomSetupObj = Room()
 try? roomSetupObj.setup()
 
+let messagesSetupObj = Message()
+try? messagesSetupObj.setup()
+
 
 let server = HTTPServer()
 server.serverPort = 8080

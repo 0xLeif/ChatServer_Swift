@@ -9,24 +9,22 @@
     </head>
     <body style="margin: 0;
  background: rgba(162, 167, 221, 1.0);">
-        <div class="signinup">
-            <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
-                <div class="stacked-group">
-                    <img class="rectangle2" src="./img/signrect2.png"/>
-                </div>
-                <div class="buttons-primary">
-                    <img class="button-background" src="./img/signinupbutton_background.png"/>
-                    <div class="o-k">
-                        Submit
+        <form action="/login" method="post">
+            <div class="signinup">
+                <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
+                    <div class="stacked-group">
+                        <img class="rectangle2" src="./img/signrect2.png"/>
                     </div>
-                </div>
-                <div class="input-textarea">
-                    <img class="input-background" src="./img/signinupinput_background.png"/>
-                    <div class="text-area-content">
-                        Handle: e.g. JohnDoe
+                    <div class="input-textarea">
+                        <img class="input-background" src="./img/signinupinput_background.png"/>
+                        Handle:
+                        <div class="text-area-content">
+                            <input type="text" name="handle"><br>
+                            <input type="submit" name="LogInSubmit">
+                        </div>
                     </div>
                 </div>
             </div>
-		</div>
+        </form>
     </body>
 </html>

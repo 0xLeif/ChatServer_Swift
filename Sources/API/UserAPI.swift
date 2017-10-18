@@ -63,7 +63,7 @@ class UserAPI {
                 return "Invalid Params"
         }
         
-        return try newUser(withHandle: handle, rooms: [], friends: []).jsonEncodedString()
+        return try newUser(withHandle: handle).jsonEncodedString()
     }
     
     static func updateUser(withJSONRequest json: String?) throws -> String {
@@ -82,5 +82,11 @@ class UserAPI {
         
         return try user.asDictionary().jsonEncodedString()
     }
+    
+//    static func currentRoom(withName name: String, forUserWithHandle handle: String) throws -> String{
+//        let user = try User.user(withHandle: handle)
+//        user.currentRoom = nam
+//        return try user.asDictionary().jsonEncodedString()
+//    }
 }
 
