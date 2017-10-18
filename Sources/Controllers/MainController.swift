@@ -57,9 +57,9 @@ final class MainController {
                 
                 if let messageSent = request.param(name: "message") {
                     _ = try MessageAPI.newMessage(withText: messageSent, senderHandle: handle, roomName: roomName)
-                    values["messages"] = try MessageAPI.allAsDictionary()
                 }
                 
+                values["messages"] = try MessageAPI.allAsDictionary().filter{ $0["roomname"] as? String ?? "" == roomName }
             }
             
             mustacheRequest(request: request, response: response, handler: MustacheHelper(values: values), templatePath: request.documentRoot + "/chathome.mustache")
