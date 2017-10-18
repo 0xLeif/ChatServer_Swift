@@ -10,20 +10,28 @@
     <body style="margin: 0;
  background: rgba(148, 132, 213, 1.0);">
         <div class="chat-home">
-            <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
-                <div class="rectangle">
+<div style="width: 1024px; height: 100%; position:relative; margin:auto;">
+                <div class="rectangle" style=" z-index: 5;">
+                    {{#rooms}}
+                        <form action="/room?name={{name}}handle=" method="get">
+                            <input type="submit" value={{name}}><br>
+                        </form>
+                    {{/rooms}}
                 </div>
                 <div class="view1">
+
                 </div>
                 <div class="label1">
-                    …
+                    <h1>Current Room: </h1>
+                    <h1>Current Handle: {{handle}}</h1>
                 </div>
                 <div class="view2">
+                    Room Chat {{#currentRoomMessages}}
                 </div>
                 <div class="view3">
                 </div>
                 <div class="label2">
-                    …
+                    Rooms
                 </div>
                 <div class="view4">
                 </div>
