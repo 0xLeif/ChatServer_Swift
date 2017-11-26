@@ -8,22 +8,34 @@
       "version": "2.0.4"
     },
     {
+      "package": "cURL",
+      "reason": null,
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-libcurl.git",
+      "version": "2.0.6"
+    },
+    {
+      "package": "libpq",
+      "reason": null,
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-libpq-linux.git",
+      "version": "2.0.1"
+    },
+    {
+      "package": "libxml2",
+      "reason": null,
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-libxml2.git",
+      "version": "2.0.1"
+    },
+    {
       "package": "LinuxBridge",
       "reason": null,
       "repositoryURL": "https://github.com/PerfectlySoft/Perfect-LinuxBridge.git",
       "version": "2.0.2"
     },
     {
-      "package": "MySQL",
+      "package": "PerfectCURL",
       "reason": null,
-      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-MySQL.git",
-      "version": "2.1.3"
-    },
-    {
-      "package": "mysqlclient",
-      "reason": null,
-      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-mysqlclient-Linux.git",
-      "version": "2.0.1"
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-CURL.git",
+      "version": "2.1.6"
     },
     {
       "package": "PerfectHTTP",
@@ -44,6 +56,12 @@
       "version": "2.0.11"
     },
     {
+      "package": "PerfectLogger",
+      "reason": null,
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Logger.git",
+      "version": "1.1.0"
+    },
+    {
       "package": "PerfectMustache",
       "reason": null,
       "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Mustache.git",
@@ -60,6 +78,36 @@
       "reason": null,
       "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Thread.git",
       "version": "2.0.12"
+    },
+    {
+      "package": "PerfectXML",
+      "reason": null,
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-XML.git",
+      "version": "2.0.5"
+    },
+    {
+      "package": "PostgreSQL",
+      "reason": null,
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-PostgreSQL.git",
+      "version": "2.0.2"
+    },
+    {
+      "package": "PostgresStORM",
+      "reason": null,
+      "repositoryURL": "https://github.com/SwiftORM/Postgres-StORM.git",
+      "version": "1.4.0"
+    },
+    {
+      "package": "StORM",
+      "reason": null,
+      "repositoryURL": "https://github.com/SwiftORM/StORM.git",
+      "version": "1.3.0"
+    },
+    {
+      "package": "SwiftMoment",
+      "reason": null,
+      "repositoryURL": "https://github.com/iamjono/SwiftMoment.git",
+      "version": "0.9.1"
     }
   ],
   "version": 1

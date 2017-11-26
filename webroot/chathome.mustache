@@ -12,11 +12,17 @@
         <div class="chat-home">
 <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
                 <div class="rectangle" style=" z-index: 5;">
+				<h1> Rooms </h1>
                     {{#rooms}}
-<form action="/rooms/{{roomname}}/handle/{{handle}}" method="get">
+							<form action="/rooms/{{roomname}}/handle/{{handle}}" method="get">
                             <input type="submit" value={{roomname}}>
                         </form>
                     {{/rooms}}
+					<form action="/addroom" method="post">
+						<input type="hidden" name="handle" value="{{handle}}">
+						<input type="text" name="roomname">
+						<input type="submit" value="Create">
+					</form>
                 </div>
                 <div class="view1">
 
@@ -36,9 +42,6 @@
                     </form>
                 </div>
                 <div class="view3">
-                </div>
-                <div class="label2">
-                    Rooms
                 </div>
                 <div class="view4">
                 </div>

@@ -75,3 +75,12 @@ class User: PostgresStORM {
         return getObj
     }
 }
+
+extension User: Hashable {
+	var hashValue: Int {
+		return handle.hashValue
+	}
+	static func ==(lhs: User, rhs: User) -> Bool {
+		return lhs.handle == rhs.handle
+	}
+}
