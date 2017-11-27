@@ -11,35 +11,32 @@ import PostgresStORM
 
 class User: PostgresStORM {
     var handle: String
-    var rooms: [Room]
-    var friends: [User]
+	var friends: [String]
+    var room: String
     
     override init() {
         handle = "unnamed"
-        rooms = []
+        room = "lobby"
         friends = []
     }
     
     init(withHandle name: String){
         handle = name
-        rooms = []
-        friends = []
-    }
-    
-    // send(message) -Tag on the ID etc
-    
+        room = "lobby"
+        friends = ["a","b","c"]
+	}
     
     override open func table() -> String { return "users" }
     
     override func to(_ this: StORMRow) {
         handle = this.data["handle"] as? String ?? ""
-        rooms = this.data["rooms"] as? [Room] ?? []
-        friends = this.data["friends"] as? [User] ?? []
+        room = this.data["room"] as? String ?? "lobby"
+		friends = "\(this.data["friends"] ?? "")".split(separator: ",").flatMap{ String($0) }
     }
     
     func rows() -> [User] {
         var rows = [User]()
-        for i in 0..<self.results.rows.count {
+        for i in 0 ..< self.results.rows.count {
             let row = User()
             row.to(self.results.rows[i])
             rows.append(row)
@@ -50,11 +47,11 @@ class User: PostgresStORM {
     func asDictionary() -> [String: Any] {
         return [
             "handle": handle,
-            "rooms": rooms,
-            "friends": friends
+			"friends": friends,
+            "room": room
         ]
     }
-    
+
     static func all() throws -> [User] {
         let getObj = User()
         try getObj.findAll()

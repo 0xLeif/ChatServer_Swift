@@ -16,6 +16,7 @@ class ChatService {
 	private var chats = [User: WebSocket]()
 	
 	func join(user: User, socket: WebSocket) {
+		print("socket: \(socket)")
 		chats[user] = socket
 		sendMessage("\(user.handle) Joined", fromUser: nil)
 	}

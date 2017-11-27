@@ -1,6 +1,6 @@
 <html>
-    <head>
-        <link href="./img/favicon.png" rel="shortcut icon"/>
+    <head>
+		<link href="./img/favicon.png" rel="shortcut icon"/>
         <meta charset="utf-8"/>
         <meta content="width=1024px, maximum-scale=1.0" name="viewport"/>
         <link href="./css/chatHome.css" rel="stylesheet" type="text/css"/>
@@ -9,7 +9,7 @@
     </head>
     <body style="margin: 0;
  background: rgba(148, 132, 213, 1.0);">
-        <div class="chat-home">
+        <div class="chat-window">
 <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
                 <div class="rectangle" style=" z-index: 5;">
 				<h1> Rooms </h1>
@@ -31,7 +31,7 @@
                     <h1>Current Room: {{roomname}} </h1>
                     <h1>Current Handle: {{handle}}</h1>
                 </div>
-                <div class="view2">
+                <div class="messages">
                     <h1>Room Chat</h1>
                     {{#messages}}
                     <h1> {{message}}: Sent By:{{senderhandle}} </h1>
@@ -41,14 +41,21 @@
                         <input type="submit">
                     </form>
                 </div>
-                <div class="view3">
-                </div>
+                <div class="friendsView">
+					<h1> Friends </h1>
+				<ul>{{#friends}}<li>{{friends}}</li>{{/friends}}</ul>
+
+					<form action="/rooms/{{roomname}}/handle/{{handle}}" method="post">
+						<input type="text" name="befriend">
+						<input type="submit" value="Add">
+					</form>
+				</div>
                 <div class="view4">
                 </div>
                 <div class="input-textarea">
                     <img class="input-background" src="./img/chathomeinput_background.png"/>
                     <div class="text-area-content">
-                    </div>
+                    </div>	
                 </div>
             </div>
 		</div>
