@@ -1,0 +1,402 @@
+[INFO] [73ff053c-288f-4fd8-88fb-b50a487ead82] [2017-10-18 21:18:49 GMT-05:00] Running setup: users
+[INFO] [bf0504ba-907f-4afc-9972-5faf474e5261] [2017-10-18 21:18:49 GMT-05:00] Running setup: rooms
+[INFO] [1d0e3421-b3e1-47bf-b84a-8161cfe71b0d] [2017-10-18 21:18:49 GMT-05:00] Running setup: messages
+[INFO] [ad55d44d-5083-42be-bd42-c07d85283cf6] [2017-10-18 21:51:34 GMT-05:00] Running setup: users
+[INFO] [9d5ddaab-2b4d-433f-a129-d99cfed7b6da] [2017-10-18 21:51:34 GMT-05:00] Running setup: rooms
+[INFO] [181c3ed2-352d-4a16-9441-f159dcd7035b] [2017-10-18 21:51:34 GMT-05:00] Running setup: messages
+[INFO] [1e682bda-c66a-402f-9c8a-c3da89a14188] [2017-11-25 15:36:23 GMT-06:00] Running setup: users
+[ERROR] [db29c915-3698-4e3d-9608-19ebe6912b59] [2017-11-25 15:36:23 GMT-06:00] Error msg: error("Connection Error")
+[ERROR] [0d26b78b-8e29-474c-8d46-ca1c357b8317] [2017-11-25 15:36:23 GMT-06:00] Error msg: error("Connection Error")
+[INFO] [c05481a9-c260-42e8-a494-85a714754eab] [2017-11-25 15:36:23 GMT-06:00] Running setup: rooms
+[ERROR] [8928b739-053d-4bf2-bf61-68ff3178009e] [2017-11-25 15:36:23 GMT-06:00] Error msg: error("Connection Error")
+[ERROR] [f8b0388f-0727-4eec-b005-ecca080e131c] [2017-11-25 15:36:23 GMT-06:00] Error msg: error("Connection Error")
+[INFO] [944d5b97-5636-4624-a2f7-a1407e3ed959] [2017-11-25 15:36:23 GMT-06:00] Running setup: messages
+[ERROR] [04f11032-4c9e-4086-a216-4bda55344a82] [2017-11-25 15:36:23 GMT-06:00] Error msg: error("Connection Error")
+[ERROR] [c00bf809-0a33-41f8-8df3-290f30d757c9] [2017-11-25 15:36:23 GMT-06:00] Error msg: error("Connection Error")
+[ERROR] [5e045038-5f1a-4f81-8c74-fe48cffcc81f] [2017-11-25 15:36:48 GMT-06:00] Error: error("Connection Error")
+[ERROR] [94d00480-5ec2-44c5-b567-d0eb52bf01f2] [2017-11-25 15:36:48 GMT-06:00] Error: error("Connection Error")
+[ERROR] [fbdf6fe4-f1a7-4df4-807e-d6a8604b9e30] [2017-11-25 15:36:48 GMT-06:00] Error: error("error(\"Connection Error\")")
+[ERROR] [84d7ffd2-73cd-452d-a9d0-d729b30ca798] [2017-11-25 15:36:48 GMT-06:00] Error: error("error(\"error(\\\"Connection Error\\\")\")")
+[INFO] [a71e8112-5e02-45c9-8d92-3606dff886fb] [2017-11-25 15:54:38 GMT-06:00] Running setup: users
+[INFO] [69103b6a-2b70-4651-9bc1-d59542948652] [2017-11-25 15:54:38 GMT-06:00] Running setup: rooms
+[INFO] [721592b5-3656-43b6-8529-1466b6f888b4] [2017-11-25 15:54:38 GMT-06:00] Running setup: messages
+[INFO] [393227e7-08f4-473d-ac60-1c1e7563ce0d] [2017-11-26 16:18:07 GMT-06:00] Running setup: users
+[INFO] [cdb6da3c-19bb-4c08-b979-1cc235758e7f] [2017-11-26 16:18:07 GMT-06:00] Running setup: rooms
+[INFO] [df70dfcb-ee8f-4b98-9046-bcb635e2ef51] [2017-11-26 16:18:07 GMT-06:00] Running setup: messages
+[INFO] [2ace194e-0874-46c9-b835-0fbe6e697fc3] [2017-11-26 16:36:46 GMT-06:00] Running setup: users
+[INFO] [4ba9e64c-ddd8-4135-984b-bd8f7e9ecdd5] [2017-11-26 16:36:46 GMT-06:00] Running setup: rooms
+[INFO] [08f939a3-ba99-4f62-a781-f57ffb0390dc] [2017-11-26 16:36:46 GMT-06:00] Running setup: messages
+[INFO] [875518b2-dd99-48da-8af2-b36d1cdb92a6] [2017-11-26 16:46:19 GMT-06:00] Running setup: users
+[INFO] [8979faa4-bc77-4310-8706-daef18eb6eef] [2017-11-26 16:46:20 GMT-06:00] Running setup: rooms
+[INFO] [a3a5eda6-4501-47e3-9c6b-c014174f389c] [2017-11-26 16:46:20 GMT-06:00] Running setup: messages
+[INFO] [0cbcd48e-6695-4502-b6b0-a937c322901e] [2017-11-26 16:46:38 GMT-06:00] Running setup: users
+[INFO] [88179f45-433a-40b9-8397-3cd8ea020b55] [2017-11-26 16:46:38 GMT-06:00] Running setup: rooms
+[INFO] [5438f902-a6bc-44d7-842e-455e768c4b69] [2017-11-26 16:46:38 GMT-06:00] Running setup: messages
+[INFO] [3e0df482-437e-4f98-9f86-b53e35cb44bf] [2017-11-26 16:49:46 GMT-06:00] Running setup: users
+[INFO] [fff76622-2039-4df1-9a40-b597bd977414] [2017-11-26 16:49:46 GMT-06:00] Running setup: rooms
+[INFO] [c594645b-f63c-4e08-bba1-77f05c8f7b6f] [2017-11-26 16:49:46 GMT-06:00] Running setup: messages
+[INFO] [d8ea69f3-9480-4570-a7b7-4093fe4b6986] [2017-11-26 16:56:08 GMT-06:00] Running setup: users
+[INFO] [50f65c60-a8e9-4e2d-89b0-d13790744e89] [2017-11-26 16:56:08 GMT-06:00] Running setup: rooms
+[INFO] [6c5c6184-8951-423f-b4c2-2e73379ee00c] [2017-11-26 16:56:08 GMT-06:00] Running setup: messages
+[INFO] [c803bf9e-2c6c-4f25-8cce-b21a1972040c] [2017-11-26 17:00:18 GMT-06:00] Running setup: users
+[INFO] [250724a6-ec23-4575-8730-2cae2606646f] [2017-11-26 17:00:19 GMT-06:00] Running setup: rooms
+[INFO] [39ff6a6f-229b-4270-92a0-2a9096adad6e] [2017-11-26 17:00:19 GMT-06:00] Running setup: messages
+[INFO] [f4ce4ea9-90fd-4098-ac3c-df4a51e5ee14] [2017-11-26 17:04:48 GMT-06:00] Running setup: users
+[INFO] [e00bd269-854c-42c6-9827-204363dcbba5] [2017-11-26 17:04:48 GMT-06:00] Running setup: rooms
+[INFO] [9b855148-a20b-45e2-8c73-91d1f411733e] [2017-11-26 17:04:48 GMT-06:00] Running setup: messages
+[INFO] [d97dea22-6092-4dbc-8fc4-3f7584a51781] [2017-11-26 17:06:48 GMT-06:00] Running setup: users
+[INFO] [4c94aed2-4117-4a84-9a1c-881f6b8e2521] [2017-11-26 17:06:48 GMT-06:00] Running setup: rooms
+[INFO] [6056fbf8-c611-4894-b015-4e131f167809] [2017-11-26 17:06:48 GMT-06:00] Running setup: messages
+[INFO] [788ac115-cbef-4f96-a8dd-9ad763dafe5e] [2017-11-26 17:11:01 GMT-06:00] Running setup: users
+[INFO] [6217eb63-b834-4131-ab2d-3b4ad3523ed6] [2017-11-26 17:11:01 GMT-06:00] Running setup: rooms
+[INFO] [a967ce62-d3a1-44b1-b9c6-a3076d9ec561] [2017-11-26 17:11:01 GMT-06:00] Running setup: messages
+[INFO] [bc44ddce-94d6-4719-bbeb-08974d4f212c] [2017-11-26 17:17:29 GMT-06:00] Running setup: users
+[INFO] [3dd76abf-1c6b-4760-b9c9-6a7936dc5f2e] [2017-11-26 17:17:29 GMT-06:00] Running setup: rooms
+[INFO] [20d393fb-eea4-48ad-b3cb-f5612a99e5f5] [2017-11-26 17:17:29 GMT-06:00] Running setup: messages
+[INFO] [fabcd97b-2ff4-4e83-9436-30739d9c7b07] [2017-11-26 17:20:13 GMT-06:00] Running setup: users
+[INFO] [226c09c0-67f4-49e8-baa7-2280d0270fee] [2017-11-26 17:20:13 GMT-06:00] Running setup: rooms
+[INFO] [3be970e0-60b8-4340-9340-495991d008b7] [2017-11-26 17:20:13 GMT-06:00] Running setup: messages
+[INFO] [7e65ad1f-e509-4167-94a0-7ad2612f92d8] [2017-11-26 17:21:36 GMT-06:00] Running setup: users
+[INFO] [ff0b5a52-d641-44f4-b0bf-1f29245df07e] [2017-11-26 17:21:36 GMT-06:00] Running setup: rooms
+[INFO] [b5f037f1-f2eb-4e71-89d7-e11a4c3528a2] [2017-11-26 17:21:36 GMT-06:00] Running setup: messages
+[INFO] [62799b88-cc54-418f-9509-c15210044401] [2017-11-26 17:24:10 GMT-06:00] Running setup: users
+[INFO] [911f2df0-1804-4973-a0e4-604837ab1ca9] [2017-11-26 17:24:10 GMT-06:00] Running setup: rooms
+[INFO] [5bfaa5cf-5264-4377-93bc-48a5b8d99ba8] [2017-11-26 17:24:10 GMT-06:00] Running setup: messages
+[INFO] [3fa99ed2-e0ae-435a-8711-937a44b32f58] [2017-11-26 17:43:43 GMT-06:00] Running setup: users
+[INFO] [59c96c96-dc11-48dc-bad9-ee792a710dd8] [2017-11-26 17:43:43 GMT-06:00] Running setup: rooms
+[INFO] [cd291c3c-6f35-4b16-adf9-3fc600a2d573] [2017-11-26 17:43:43 GMT-06:00] Running setup: messages
+[INFO] [27dcdc7f-a4ef-43cd-bc37-021f48bca90f] [2017-11-26 17:48:02 GMT-06:00] Running setup: users
+[INFO] [d9fd2a7c-342c-4dbb-89ac-992749a89ee3] [2017-11-26 17:48:02 GMT-06:00] Running setup: rooms
+[INFO] [3cd90e84-4c56-4953-9328-b6faa29ddf13] [2017-11-26 17:48:02 GMT-06:00] Running setup: messages
+[INFO] [61bc3220-cb5e-4b67-8eda-36694a75c187] [2017-11-26 17:48:44 GMT-06:00] Running setup: users
+[INFO] [a9889c03-3775-4da1-aea7-be80a39d27c3] [2017-11-26 17:48:44 GMT-06:00] Running setup: rooms
+[INFO] [072e4fc8-fab1-42bb-bb96-34837c34365b] [2017-11-26 17:48:44 GMT-06:00] Running setup: messages
+[INFO] [b2f0300b-b79b-4883-a13f-143ff7e6d1ee] [2017-11-26 17:49:36 GMT-06:00] Running setup: users
+[INFO] [c3e0a6b4-fb16-4674-89a2-475c11572e05] [2017-11-26 17:49:36 GMT-06:00] Running setup: rooms
+[INFO] [fba83d7d-9912-4d28-a245-a9b821ebf3e2] [2017-11-26 17:49:36 GMT-06:00] Running setup: messages
+[INFO] [c5e28ee7-5900-4feb-8838-a28ca98beaaf] [2017-11-26 18:00:11 GMT-06:00] Running setup: users
+[INFO] [5f27df12-fad9-4a26-9dac-c74c3f6896f4] [2017-11-26 18:00:11 GMT-06:00] Running setup: rooms
+[INFO] [27bb8fb2-d2a4-48f0-af98-828470180a73] [2017-11-26 18:00:11 GMT-06:00] Running setup: messages
+[INFO] [d88c98ab-77ea-40bf-ae91-2f69e71e4dcd] [2017-11-26 18:06:21 GMT-06:00] Running setup: users
+[INFO] [c93b5f0e-20c8-42c0-b9ca-6e61aa50a087] [2017-11-26 18:06:21 GMT-06:00] Running setup: rooms
+[INFO] [2fdb7cc2-814d-435c-8ebc-e8b0cd80433d] [2017-11-26 18:06:21 GMT-06:00] Running setup: messages
+[INFO] [541ad66c-5875-4172-acec-41be886e775c] [2017-11-26 18:09:51 GMT-06:00] Running setup: users
+[INFO] [dfe62d4d-e47e-4992-9922-8036251c3e65] [2017-11-26 18:09:51 GMT-06:00] Running setup: rooms
+[INFO] [37c894f0-8025-4adb-9c5b-0d9fa1278ac5] [2017-11-26 18:09:51 GMT-06:00] Running setup: messages
+[INFO] [94d13f44-41a7-441b-8d74-feaa185c8df2] [2017-11-26 18:13:11 GMT-06:00] Running setup: users
+[INFO] [a52884d8-660b-4d57-b3b6-2b14a5ee3ddc] [2017-11-26 18:13:11 GMT-06:00] Running setup: rooms
+[INFO] [18066532-98cb-4625-9c6c-e20a977ca430] [2017-11-26 18:13:11 GMT-06:00] Running setup: messages
+[INFO] [ef352637-7752-4069-8819-a291bb60412a] [2017-11-26 18:20:35 GMT-06:00] Running setup: users
+[INFO] [4eba4128-5b6f-4213-920e-806b05c7b2ea] [2017-11-26 18:20:35 GMT-06:00] Running setup: rooms
+[INFO] [f46ee39e-e45c-4f50-81a8-b95da5774cd2] [2017-11-26 18:20:35 GMT-06:00] Running setup: messages
+[INFO] [6cbd0912-f1ed-4f6c-bf21-a2e7e262540b] [2017-11-26 18:21:35 GMT-06:00] Running setup: users
+[INFO] [ea46a02d-f0ae-45c7-8f8d-27da1ac4efbb] [2017-11-26 18:21:35 GMT-06:00] Running setup: rooms
+[INFO] [1c0c78aa-6867-4c02-9c77-58d7b654a44f] [2017-11-26 18:21:35 GMT-06:00] Running setup: messages
+[INFO] [f7bf1464-5d14-4180-94ba-a06b4d875397] [2017-11-26 18:24:32 GMT-06:00] Running setup: users
+[INFO] [8c3d2796-8ed6-48af-8a3d-9b56fa15febd] [2017-11-26 18:24:32 GMT-06:00] Running setup: rooms
+[INFO] [6063303f-46c5-4ba7-ab7e-4867d47a468e] [2017-11-26 18:24:32 GMT-06:00] Running setup: messages
+[INFO] [bd82381f-c013-40aa-a9d4-33ce7dcb2655] [2017-11-26 18:28:38 GMT-06:00] Running setup: users
+[INFO] [692fb006-3ac0-4ad4-a5c9-b228d445e0f1] [2017-11-26 18:28:38 GMT-06:00] Running setup: rooms
+[INFO] [4f09ff13-df54-46bc-ab39-6de4eb7229f7] [2017-11-26 18:28:38 GMT-06:00] Running setup: messages
+[ERROR] [36be0c08-3565-4a58-a200-f49321a81a5d] [2017-11-26 18:36:31 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(tyuio) already exists.")
+[ERROR] [c7897a58-d6f4-4782-b58b-6abae100dbdc] [2017-11-26 18:36:31 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(tyuio) already exists.")
+[ERROR] [d6e4dd5a-34c8-4172-8ea6-6b566f832ac5] [2017-11-26 18:36:31 GMT-06:00] Error: error("error(\"ERROR:  duplicate key value violates unique constraint \\\"users_key\\\"\\nDETAIL:  Key (handle)=(tyuio) already exists.\")")
+[ERROR] [ef4e36ab-b96c-4ea9-9cb9-17d260f98361] [2017-11-26 18:36:31 GMT-06:00] Error: error("error(\"error(\\\"ERROR:  duplicate key value violates unique constraint \\\\\\\"users_key\\\\\\\"\\\\nDETAIL:  Key (handle)=(tyuio) already exists.\\\")\")")
+[INFO] [62fab50d-264b-48d7-b889-f967db7bf0c2] [2017-11-26 18:38:21 GMT-06:00] Running setup: users
+[INFO] [ab9a8b07-49e4-425c-a65b-f171e6c6cdd8] [2017-11-26 18:38:21 GMT-06:00] Running setup: rooms
+[INFO] [b6c0206b-945c-4874-93cb-0ffde37ddbda] [2017-11-26 18:38:21 GMT-06:00] Running setup: messages
+[ERROR] [26a9e971-f828-4c7c-a380-85abdd981a34] [2017-11-26 18:38:28 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(tyuio) already exists.")
+[ERROR] [4084b8da-86bc-4ee3-ac27-2fa6fd5d9db5] [2017-11-26 18:38:28 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(tyuio) already exists.")
+[ERROR] [8ffff285-a4f6-4594-838d-797a69492404] [2017-11-26 18:38:28 GMT-06:00] Error: error("error(\"ERROR:  duplicate key value violates unique constraint \\\"users_key\\\"\\nDETAIL:  Key (handle)=(tyuio) already exists.\")")
+[ERROR] [2c176e6e-43cf-4360-bdfd-2600232dfdf2] [2017-11-26 18:38:28 GMT-06:00] Error: error("error(\"error(\\\"ERROR:  duplicate key value violates unique constraint \\\\\\\"users_key\\\\\\\"\\\\nDETAIL:  Key (handle)=(tyuio) already exists.\\\")\")")
+[ERROR] [03603652-0327-444a-be0d-2a5656af42fd] [2017-11-26 18:38:39 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(abc) already exists.")
+[ERROR] [663d84ee-8671-415d-883e-fd74d3309799] [2017-11-26 18:38:39 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(abc) already exists.")
+[ERROR] [b42b518c-47d6-4c20-aa3b-78ed6016884f] [2017-11-26 18:38:39 GMT-06:00] Error: error("error(\"ERROR:  duplicate key value violates unique constraint \\\"users_key\\\"\\nDETAIL:  Key (handle)=(abc) already exists.\")")
+[ERROR] [1eedd09d-a50f-4b1a-9786-4312c9fd1e1f] [2017-11-26 18:38:39 GMT-06:00] Error: error("error(\"error(\\\"ERROR:  duplicate key value violates unique constraint \\\\\\\"users_key\\\\\\\"\\\\nDETAIL:  Key (handle)=(abc) already exists.\\\")\")")
+[INFO] [7b80c486-ad93-4152-b585-b77fcc83fad0] [2017-11-26 18:39:21 GMT-06:00] Running setup: users
+[INFO] [85cb6e65-fd0b-4c76-8c7d-dc1fe1c2d345] [2017-11-26 18:39:21 GMT-06:00] Running setup: rooms
+[INFO] [83727617-c0d2-45dc-a612-59c947944abb] [2017-11-26 18:39:22 GMT-06:00] Running setup: messages
+[ERROR] [3abd2fd3-fc24-4360-a9b1-7532759d6c6a] [2017-11-26 18:39:28 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(abc) already exists.")
+[ERROR] [cb415e60-ce20-4fd8-af6f-b76de19d761c] [2017-11-26 18:39:28 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(abc) already exists.")
+[ERROR] [8d874d6c-b984-4c85-950c-fa2b4e76be0b] [2017-11-26 18:39:28 GMT-06:00] Error: error("error(\"ERROR:  duplicate key value violates unique constraint \\\"users_key\\\"\\nDETAIL:  Key (handle)=(abc) already exists.\")")
+[ERROR] [209ada37-d38b-4d23-b61a-eff288eb7e67] [2017-11-26 18:39:28 GMT-06:00] Error: error("error(\"error(\\\"ERROR:  duplicate key value violates unique constraint \\\\\\\"users_key\\\\\\\"\\\\nDETAIL:  Key (handle)=(abc) already exists.\\\")\")")
+[ERROR] [527fc392-77f3-421d-a446-fa1877a0f416] [2017-11-26 18:39:31 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(abc) already exists.")
+[ERROR] [b788e512-1f9d-4518-b4fd-3e93a3f8c407] [2017-11-26 18:39:31 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(abc) already exists.")
+[ERROR] [a474ca30-fe94-4b13-ba30-ab40df3550dd] [2017-11-26 18:39:31 GMT-06:00] Error: error("error(\"ERROR:  duplicate key value violates unique constraint \\\"users_key\\\"\\nDETAIL:  Key (handle)=(abc) already exists.\")")
+[ERROR] [8d53a267-7df9-48b2-9beb-a2e853a1ba5e] [2017-11-26 18:39:31 GMT-06:00] Error: error("error(\"error(\\\"ERROR:  duplicate key value violates unique constraint \\\\\\\"users_key\\\\\\\"\\\\nDETAIL:  Key (handle)=(abc) already exists.\\\")\")")
+[INFO] [362b1a9f-2831-4bc8-bf21-c76fd02acc45] [2017-11-26 18:41:31 GMT-06:00] Running setup: users
+[INFO] [94a27626-8229-4864-ad69-b6973051bac4] [2017-11-26 18:41:31 GMT-06:00] Running setup: rooms
+[INFO] [ff5b777f-0a26-49e6-ac3b-e783500d20d7] [2017-11-26 18:41:31 GMT-06:00] Running setup: messages
+[ERROR] [7efea3e1-aeec-4603-9a7a-c902fb291754] [2017-11-26 18:41:43 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(abc) already exists.")
+[ERROR] [4cd10ab2-3eff-4bf2-a19b-b96de965b935] [2017-11-26 18:41:43 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(abc) already exists.")
+[ERROR] [619ba678-f68f-4565-bff9-fc872a0c4def] [2017-11-26 18:41:43 GMT-06:00] Error: error("error(\"ERROR:  duplicate key value violates unique constraint \\\"users_key\\\"\\nDETAIL:  Key (handle)=(abc) already exists.\")")
+[ERROR] [8cf0d66c-8b5e-41f2-9a71-966fa40ca8de] [2017-11-26 18:41:43 GMT-06:00] Error: error("error(\"error(\\\"ERROR:  duplicate key value violates unique constraint \\\\\\\"users_key\\\\\\\"\\\\nDETAIL:  Key (handle)=(abc) already exists.\\\")\")")
+[ERROR] [5f042e3c-fab9-4144-a29a-d81d0fae87ac] [2017-11-26 18:42:07 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(sab) already exists.")
+[ERROR] [593dd1e7-a194-4a6c-95ba-d6a122d15a0e] [2017-11-26 18:42:07 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(sab) already exists.")
+[ERROR] [69129def-7d01-4080-a92f-f8cdfac38fd9] [2017-11-26 18:42:07 GMT-06:00] Error: error("error(\"ERROR:  duplicate key value violates unique constraint \\\"users_key\\\"\\nDETAIL:  Key (handle)=(sab) already exists.\")")
+[ERROR] [5f1194c8-9c54-4edb-8ee2-9bd38529b6f3] [2017-11-26 18:42:07 GMT-06:00] Error: error("error(\"error(\\\"ERROR:  duplicate key value violates unique constraint \\\\\\\"users_key\\\\\\\"\\\\nDETAIL:  Key (handle)=(sab) already exists.\\\")\")")
+[ERROR] [bb68b431-b33e-478d-9f3d-982b9796979c] [2017-11-26 18:42:11 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=() already exists.")
+[ERROR] [688f464a-b20b-40ce-9dbf-4816e4fa99e3] [2017-11-26 18:42:11 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=() already exists.")
+[ERROR] [83fc4880-975c-4dfd-acf0-3da6800df43a] [2017-11-26 18:42:11 GMT-06:00] Error: error("error(\"ERROR:  duplicate key value violates unique constraint \\\"users_key\\\"\\nDETAIL:  Key (handle)=() already exists.\")")
+[ERROR] [8acb5800-7d37-496e-adea-71e5e89ae475] [2017-11-26 18:42:11 GMT-06:00] Error: error("error(\"error(\\\"ERROR:  duplicate key value violates unique constraint \\\\\\\"users_key\\\\\\\"\\\\nDETAIL:  Key (handle)=() already exists.\\\")\")")
+[ERROR] [06a9ef2c-0e02-423e-83ab-8ad6f6fed357] [2017-11-26 18:42:16 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(sab) already exists.")
+[ERROR] [7fd245f8-5bc1-4978-b120-9752a8709b97] [2017-11-26 18:42:16 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(sab) already exists.")
+[ERROR] [7be3346c-5453-4153-ae0e-7ce518107754] [2017-11-26 18:42:16 GMT-06:00] Error: error("error(\"ERROR:  duplicate key value violates unique constraint \\\"users_key\\\"\\nDETAIL:  Key (handle)=(sab) already exists.\")")
+[ERROR] [dbf52fc9-541b-4265-8355-4b5f22e0147d] [2017-11-26 18:42:16 GMT-06:00] Error: error("error(\"error(\\\"ERROR:  duplicate key value violates unique constraint \\\\\\\"users_key\\\\\\\"\\\\nDETAIL:  Key (handle)=(sab) already exists.\\\")\")")
+[ERROR] [2a9143ef-4ca1-467f-89c2-08d81ae800bb] [2017-11-26 18:42:20 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(test123) already exists.")
+[ERROR] [c9dbfe57-f18d-483a-9074-7e33377fac6b] [2017-11-26 18:42:20 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"users_key\"\nDETAIL:  Key (handle)=(test123) already exists.")
+[ERROR] [f0829e55-e7fa-4cae-89eb-0472c56eafb0] [2017-11-26 18:42:20 GMT-06:00] Error: error("error(\"ERROR:  duplicate key value violates unique constraint \\\"users_key\\\"\\nDETAIL:  Key (handle)=(test123) already exists.\")")
+[ERROR] [81297588-2d4f-4174-bd40-1d3e477de910] [2017-11-26 18:42:20 GMT-06:00] Error: error("error(\"error(\\\"ERROR:  duplicate key value violates unique constraint \\\\\\\"users_key\\\\\\\"\\\\nDETAIL:  Key (handle)=(test123) already exists.\\\")\")")
+[INFO] [7a00db3d-7c71-4bdb-82df-36ce98918c1b] [2017-11-26 18:48:22 GMT-06:00] Running setup: users
+[INFO] [3ac04abf-ba3e-4092-80dd-7aa6c3d6a25e] [2017-11-26 18:48:22 GMT-06:00] Running setup: rooms
+[INFO] [657e4694-59cd-4cce-8e74-8280534ad4f6] [2017-11-26 18:48:22 GMT-06:00] Running setup: messages
+[INFO] [bc737585-ed21-478f-8a61-28a38cdfd183] [2017-11-26 19:09:48 GMT-06:00] Running setup: users
+[INFO] [872ba25c-d1a0-4e2c-99c3-ffe6d2a085dc] [2017-11-26 19:09:48 GMT-06:00] Running setup: rooms
+[INFO] [836479f5-2a15-49c5-a48d-bac77d406f6f] [2017-11-26 19:09:48 GMT-06:00] Running setup: messages
+[INFO] [e9e48b4a-b4b5-43bf-94a7-20136e2be313] [2017-11-26 19:45:25 GMT-06:00] Running setup: users
+[INFO] [d634a71f-b2ca-4cbe-8da5-e571ae249103] [2017-11-26 19:45:25 GMT-06:00] Running setup: rooms
+[INFO] [ea6fb691-867c-4e0e-b4bd-4c5c0b4a2c1a] [2017-11-26 19:45:25 GMT-06:00] Running setup: messages
+[INFO] [6f585da9-bc04-4d4b-9451-3ed7e7803b02] [2017-11-26 19:48:37 GMT-06:00] Running setup: users
+[INFO] [4603b5ec-3db8-4732-a618-89a054e1c9f1] [2017-11-26 19:48:37 GMT-06:00] Running setup: rooms
+[INFO] [8ebb2e78-ebcb-4f0b-8c45-b32049a6714f] [2017-11-26 19:48:37 GMT-06:00] Running setup: messages
+[INFO] [91b2cb5f-147f-47d4-9c81-5b68c4725855] [2017-11-26 19:59:22 GMT-06:00] Running setup: users
+[INFO] [103f3b82-02f9-4929-9fbf-4ad7b362504c] [2017-11-26 19:59:22 GMT-06:00] Running setup: rooms
+[INFO] [af2230a1-728a-489d-ad93-ec21607b37f1] [2017-11-26 19:59:22 GMT-06:00] Running setup: messages
+[INFO] [c560d803-81bf-4da9-8900-3e069d500c44] [2017-11-26 20:01:08 GMT-06:00] Running setup: users
+[INFO] [b336f767-65da-4522-b090-6be6671aa703] [2017-11-26 20:01:08 GMT-06:00] Running setup: rooms
+[INFO] [c1e4a0df-0ed6-4f0f-81d4-2c1a933f492d] [2017-11-26 20:01:08 GMT-06:00] Running setup: messages
+[INFO] [3a6999a4-90cf-40a4-8be2-6127859c6e78] [2017-11-26 20:04:47 GMT-06:00] Running setup: users
+[INFO] [5e7def1f-c1da-4f46-aba5-01aa21bad719] [2017-11-26 20:04:47 GMT-06:00] Running setup: rooms
+[INFO] [8961b57d-c78e-4eea-878b-c91d55185d20] [2017-11-26 20:04:47 GMT-06:00] Running setup: messages
+[INFO] [0e2de8d2-703f-4279-8798-3a743622e187] [2017-11-26 20:06:28 GMT-06:00] Running setup: users
+[INFO] [c04c8137-6241-4e00-8eab-32743066b7eb] [2017-11-26 20:06:28 GMT-06:00] Running setup: rooms
+[INFO] [b6711e2e-bf79-4165-ae43-b5603701815b] [2017-11-26 20:06:28 GMT-06:00] Running setup: messages
+[INFO] [4862e35f-3bb6-4f31-aa90-e48e1d0ab960] [2017-11-26 20:08:17 GMT-06:00] Running setup: users
+[INFO] [6fa244fb-88fd-4444-a2c2-ece77fbb5ea0] [2017-11-26 20:08:17 GMT-06:00] Running setup: rooms
+[INFO] [5dbcf2fc-60c1-4725-891b-564f9130437e] [2017-11-26 20:08:17 GMT-06:00] Running setup: messages
+[INFO] [4b6c4665-ef61-4c44-af63-4bfb8b8f73ec] [2017-11-26 20:10:43 GMT-06:00] Running setup: users
+[INFO] [7d535a56-2827-4029-8a49-ed1111c9c65a] [2017-11-26 20:10:43 GMT-06:00] Running setup: rooms
+[INFO] [4581ca93-4da9-4925-9e60-4988c373dea5] [2017-11-26 20:10:43 GMT-06:00] Running setup: messages
+[INFO] [cdf265ad-63e2-45f8-b6ea-306d1764c91a] [2017-11-26 20:12:26 GMT-06:00] Running setup: users
+[INFO] [c30df8a9-c2b7-43d8-8b13-9d820a93c742] [2017-11-26 20:12:26 GMT-06:00] Running setup: rooms
+[INFO] [d6c9e9d4-55ed-4ab6-b0f6-d94f92252521] [2017-11-26 20:12:26 GMT-06:00] Running setup: messages
+[INFO] [c81630f5-5bd2-4f7a-959e-d91e2d088c01] [2017-11-26 20:16:26 GMT-06:00] Running setup: users
+[INFO] [87246e03-8f0a-4f59-ac81-e0a67127dc72] [2017-11-26 20:16:26 GMT-06:00] Running setup: rooms
+[INFO] [9db2be9e-a6f3-421f-b836-3d812817fb97] [2017-11-26 20:16:26 GMT-06:00] Running setup: messages
+[INFO] [24da8130-38ba-4a2d-8add-f465be9639b9] [2017-11-26 20:18:03 GMT-06:00] Running setup: users
+[INFO] [2f15daed-0b60-4ef1-909b-328a2171bd59] [2017-11-26 20:18:03 GMT-06:00] Running setup: rooms
+[INFO] [fdcb8666-9ef7-4bec-a80a-f0be0d33334a] [2017-11-26 20:18:03 GMT-06:00] Running setup: messages
+[INFO] [83f8ba45-0752-4f9f-bd45-cbb22dccd1a6] [2017-11-26 20:22:19 GMT-06:00] Running setup: users
+[INFO] [cb086560-c9c5-41a9-ae67-eef36d8d948a] [2017-11-26 20:22:19 GMT-06:00] Running setup: rooms
+[INFO] [98a98159-c7ac-4209-bb9c-7dcac23d4a5e] [2017-11-26 20:22:19 GMT-06:00] Running setup: messages
+[INFO] [2f225aec-9e75-4385-8df9-2ad79b62ac71] [2017-11-26 20:24:59 GMT-06:00] Running setup: users
+[INFO] [a899e52c-dd4b-4ff9-bd68-e95437008726] [2017-11-26 20:24:59 GMT-06:00] Running setup: rooms
+[INFO] [f58e68ad-dcb2-4367-a8a5-564de13e22e0] [2017-11-26 20:24:59 GMT-06:00] Running setup: messages
+[INFO] [299e59d7-dcd0-4636-89ba-ddf5917e8f12] [2017-11-26 20:25:37 GMT-06:00] Running setup: users
+[INFO] [213c8506-82c6-412e-8152-c932a39e8bd1] [2017-11-26 20:25:37 GMT-06:00] Running setup: rooms
+[INFO] [4e541963-56ff-4125-8759-5790b821b71e] [2017-11-26 20:25:37 GMT-06:00] Running setup: messages
+[INFO] [70c6ff4c-516f-479d-a2b3-77ef56ac23c2] [2017-11-26 20:27:37 GMT-06:00] Running setup: users
+[INFO] [b445c497-7b81-41ec-a1f6-375e118eac4c] [2017-11-26 20:27:37 GMT-06:00] Running setup: rooms
+[INFO] [4e6bec36-123f-459e-b3c2-35eaed877fc3] [2017-11-26 20:27:37 GMT-06:00] Running setup: messages
+[INFO] [454622e3-5781-4837-b8ff-d28c51a09571] [2017-11-26 20:28:50 GMT-06:00] Running setup: users
+[INFO] [5b2842c0-147f-4cdb-9605-02dbac5293b0] [2017-11-26 20:28:50 GMT-06:00] Running setup: rooms
+[INFO] [90556a1d-c8f7-410a-9619-2f6382f1da7e] [2017-11-26 20:28:50 GMT-06:00] Running setup: messages
+[INFO] [024ea0c9-ab01-458f-a107-104fb0b499ea] [2017-11-26 20:29:23 GMT-06:00] Running setup: users
+[INFO] [db1d71c2-c039-4465-8a5c-4b1e9ef014a4] [2017-11-26 20:29:24 GMT-06:00] Running setup: rooms
+[INFO] [0d9bad5c-bcec-4889-9225-c84e04ebc0f3] [2017-11-26 20:29:24 GMT-06:00] Running setup: messages
+[INFO] [c05f81c9-d2f8-454e-80cc-44c05c0630c7] [2017-11-26 20:32:44 GMT-06:00] Running setup: users
+[INFO] [369c03d8-e74a-4658-a791-a69850da267a] [2017-11-26 20:32:44 GMT-06:00] Running setup: rooms
+[INFO] [cb22a95e-1a9e-4b4c-ba7b-e82802e1b17f] [2017-11-26 20:32:44 GMT-06:00] Running setup: messages
+[INFO] [dc96b3b0-3121-43b8-9419-f987dd5ef62b] [2017-11-26 20:35:15 GMT-06:00] Running setup: users
+[INFO] [d6490d45-4475-4e2a-acef-b6482018c186] [2017-11-26 20:35:15 GMT-06:00] Running setup: rooms
+[INFO] [71e20761-f603-45ef-becb-9041193ba13d] [2017-11-26 20:35:15 GMT-06:00] Running setup: messages
+[INFO] [32a035b5-3fd2-4ff0-a96a-fbcec259cda5] [2017-11-26 20:50:21 GMT-06:00] Running setup: users
+[INFO] [bb897250-cd87-400c-b8d4-61b91e93c879] [2017-11-26 20:50:21 GMT-06:00] Running setup: rooms
+[INFO] [c8d1ef74-d277-400e-a50a-1db18d77cbc1] [2017-11-26 20:50:21 GMT-06:00] Running setup: messages
+[INFO] [32669123-38c2-48e0-a14d-4f0dbb2adc38] [2017-11-26 20:55:03 GMT-06:00] Running setup: users
+[INFO] [45ceee6f-6366-416a-a2fe-028a8013aa6f] [2017-11-26 20:55:03 GMT-06:00] Running setup: rooms
+[INFO] [39814062-7580-4c48-85b5-550709755e15] [2017-11-26 20:55:03 GMT-06:00] Running setup: messages
+[INFO] [1ad9dff4-8e9c-46d8-a75c-e368e34fde7e] [2017-11-26 20:59:21 GMT-06:00] Running setup: users
+[INFO] [7ee95586-6cbd-458c-9864-82085af765d5] [2017-11-26 20:59:21 GMT-06:00] Running setup: rooms
+[INFO] [6369607d-2174-4fd3-8ed8-8c1b2c2a6bd2] [2017-11-26 20:59:21 GMT-06:00] Running setup: messages
+[INFO] [6bfd16cf-75b8-4882-bc4e-c68091e431b4] [2017-11-26 21:03:11 GMT-06:00] Running setup: users
+[INFO] [7105b1f8-7b60-47af-b1b9-b0c5f6357de1] [2017-11-26 21:03:11 GMT-06:00] Running setup: rooms
+[INFO] [b2b9f123-264e-4f88-b6fd-784dd8a32c8b] [2017-11-26 21:03:11 GMT-06:00] Running setup: messages
+[INFO] [75f4b752-e8f6-4819-87ac-069f6e76d7ad] [2017-11-26 21:08:22 GMT-06:00] Running setup: users
+[INFO] [938f90b3-08b7-49da-a4a9-094d04e8cff5] [2017-11-26 21:08:22 GMT-06:00] Running setup: rooms
+[INFO] [8e39c708-eebc-4c0d-a223-dd387b4e90aa] [2017-11-26 21:08:22 GMT-06:00] Running setup: messages
+[INFO] [1aabadb1-4e49-42cf-8858-805eef9c1f58] [2017-11-26 21:13:47 GMT-06:00] Running setup: users
+[INFO] [11ab76d8-82f1-4463-a2dd-c185e570f2ab] [2017-11-26 21:13:48 GMT-06:00] Running setup: rooms
+[INFO] [5b8c7727-eb87-4880-b883-64dfb6ac9271] [2017-11-26 21:13:48 GMT-06:00] Running setup: messages
+[INFO] [146ed730-aa73-4506-ab55-62cf11f2ff66] [2017-11-26 21:16:51 GMT-06:00] Running setup: users
+[INFO] [1a5d5225-caff-44a3-87db-14a480eab6e2] [2017-11-26 21:16:51 GMT-06:00] Running setup: rooms
+[INFO] [72d6f971-851c-4465-84c4-6b149ed56922] [2017-11-26 21:16:51 GMT-06:00] Running setup: messages
+[INFO] [98f6a670-0dae-4f04-b4d8-32db2fdffb0e] [2017-11-26 21:18:52 GMT-06:00] Running setup: users
+[INFO] [44e13820-1c4f-47f1-b28d-80b32ca838da] [2017-11-26 21:18:52 GMT-06:00] Running setup: rooms
+[INFO] [0fca9ece-ebb5-4e59-84c1-402ad06835d4] [2017-11-26 21:18:52 GMT-06:00] Running setup: messages
+[INFO] [c129fb62-6dd6-41dd-b374-ad9425510fdc] [2017-11-26 21:22:33 GMT-06:00] Running setup: users
+[INFO] [e89a6849-a8fd-4838-beac-1767e70ae32f] [2017-11-26 21:22:33 GMT-06:00] Running setup: rooms
+[INFO] [32c9bf5d-3339-4dfc-bd4e-ae7808fc3ccb] [2017-11-26 21:22:33 GMT-06:00] Running setup: messages
+[INFO] [b4498242-25f1-497a-8e5e-9f5fba1add6a] [2017-11-27 13:04:02 GMT-06:00] Running setup: users
+[INFO] [66592ae9-d73e-45f5-aa4c-40e9b6ecc1d6] [2017-11-27 13:04:02 GMT-06:00] Running setup: rooms
+[INFO] [9de6fdc5-6e4e-4a70-9bc0-7afcc8849574] [2017-11-27 13:04:02 GMT-06:00] Running setup: messages
+[INFO] [f642c2ca-94d8-4ee5-b0c2-c519f9e96ead] [2017-11-27 13:06:03 GMT-06:00] Running setup: users
+[INFO] [6e3fb7c6-58a1-4f64-9b8a-46d91dfc8a2c] [2017-11-27 13:06:03 GMT-06:00] Running setup: rooms
+[INFO] [553089c2-7363-42f6-a573-89868e11218d] [2017-11-27 13:06:03 GMT-06:00] Running setup: messages
+[INFO] [6398062f-edd4-4dd5-9f1f-f24650c6194f] [2017-11-27 13:07:48 GMT-06:00] Running setup: users
+[INFO] [9d5b535c-4c3a-4cb8-a10b-73d1232c7f1a] [2017-11-27 13:07:48 GMT-06:00] Running setup: rooms
+[INFO] [11937e4e-d125-44b3-a198-80f04305ba84] [2017-11-27 13:07:48 GMT-06:00] Running setup: messages
+[INFO] [8b9c48aa-0949-4fb9-bf27-ef2fcf881f3f] [2017-11-27 13:09:00 GMT-06:00] Running setup: users
+[INFO] [cb1714a8-5b53-406e-9709-a2b2c1b48d43] [2017-11-27 13:09:00 GMT-06:00] Running setup: rooms
+[INFO] [47a57643-1eef-4546-918b-eb2898b91042] [2017-11-27 13:09:00 GMT-06:00] Running setup: messages
+[INFO] [77606a79-48f9-45cd-ac88-d3ceb854db5b] [2017-11-27 13:10:16 GMT-06:00] Running setup: users
+[INFO] [10b42994-e9e3-4e22-90ee-813cdcda0c16] [2017-11-27 13:10:16 GMT-06:00] Running setup: rooms
+[INFO] [e375d656-c3d6-44d3-b359-97dd29f7984e] [2017-11-27 13:10:16 GMT-06:00] Running setup: messages
+[INFO] [5b1b241d-f228-45c8-bde6-8f8856a865aa] [2017-11-27 13:12:10 GMT-06:00] Running setup: users
+[INFO] [da25422a-9641-4fd3-9b32-df127e1600e0] [2017-11-27 13:12:10 GMT-06:00] Running setup: rooms
+[INFO] [c1fd149e-eda3-47f9-ad58-54e390cc31d3] [2017-11-27 13:12:10 GMT-06:00] Running setup: messages
+[INFO] [35a446a1-1c72-45d6-b69a-c378b2f7c00b] [2017-11-27 13:14:07 GMT-06:00] Running setup: users
+[INFO] [9a95d84a-f7ab-4ef7-90ff-d1c349d95e65] [2017-11-27 13:14:07 GMT-06:00] Running setup: rooms
+[INFO] [5d338f51-9c09-46ed-9b59-a1d903c6a153] [2017-11-27 13:14:07 GMT-06:00] Running setup: messages
+[INFO] [4a043295-3cd8-444c-b16e-5c7f3f69d93c] [2017-11-27 13:15:43 GMT-06:00] Running setup: users
+[INFO] [e7e518f8-e984-4953-9cde-4b62fefccd45] [2017-11-27 13:15:43 GMT-06:00] Running setup: rooms
+[INFO] [95a23e26-9d9d-4be0-9c10-6d37c85daf0a] [2017-11-27 13:15:43 GMT-06:00] Running setup: messages
+[INFO] [9d6bb8b5-f8f4-473a-b0a3-824efa3dbb57] [2017-11-27 13:17:52 GMT-06:00] Running setup: users
+[INFO] [e60f57fe-594b-4e19-8f8e-1c432087a0dc] [2017-11-27 13:17:52 GMT-06:00] Running setup: rooms
+[INFO] [b840fa61-a292-4acc-9cbf-a0cf5645c9f0] [2017-11-27 13:17:52 GMT-06:00] Running setup: messages
+[INFO] [c5bdefbe-a56c-4fd0-aaed-c42c7908dd79] [2017-11-27 13:19:19 GMT-06:00] Running setup: users
+[INFO] [543c0dd9-4458-49bb-ac4c-33c8915bde56] [2017-11-27 13:19:19 GMT-06:00] Running setup: rooms
+[INFO] [292be963-4ab0-4e0b-8bd3-b8dfec91541d] [2017-11-27 13:19:19 GMT-06:00] Running setup: messages
+[INFO] [fa092f09-3afb-498e-a7db-f86bddf0ae79] [2017-11-27 13:21:49 GMT-06:00] Running setup: users
+[INFO] [7b8bcfff-1d4b-4ac6-a1ab-5bf7f519f4da] [2017-11-27 13:21:49 GMT-06:00] Running setup: rooms
+[INFO] [e431c909-2e03-4128-b37c-752454ef3b9a] [2017-11-27 13:21:49 GMT-06:00] Running setup: messages
+[INFO] [ebd8d782-8768-4994-8c84-601fa1e7f8d5] [2017-11-27 13:24:36 GMT-06:00] Running setup: users
+[INFO] [49089b9c-8c63-4210-b822-55727f6776ee] [2017-11-27 13:24:36 GMT-06:00] Running setup: rooms
+[INFO] [8fe8d12c-3ff8-4958-82dc-dd2c8c2cd481] [2017-11-27 13:24:36 GMT-06:00] Running setup: messages
+[INFO] [b0e8b667-3840-4da7-81ff-2185c4ddaaef] [2017-11-27 13:27:44 GMT-06:00] Running setup: users
+[INFO] [03e1ecdd-68fd-47c9-a7c3-f06c418472fd] [2017-11-27 13:27:44 GMT-06:00] Running setup: rooms
+[INFO] [32e37033-39b5-40af-9cad-4bc7b7ada845] [2017-11-27 13:27:44 GMT-06:00] Running setup: messages
+[INFO] [18a2bc72-4f5f-4512-812a-1f6d898eaf65] [2017-11-27 13:38:55 GMT-06:00] Running setup: users
+[INFO] [77712c8c-e970-4140-b2fe-024dd69add11] [2017-11-27 13:38:55 GMT-06:00] Running setup: rooms
+[INFO] [bf268a19-2916-41ee-9f83-9535690c2b4b] [2017-11-27 13:38:55 GMT-06:00] Running setup: messages
+[INFO] [4fc48d4f-0753-4541-b83a-06572eda00be] [2017-11-27 14:32:28 GMT-06:00] Running setup: users
+[INFO] [83f6cdd0-fccd-4620-b9a5-fcc63324aa48] [2017-11-27 14:32:28 GMT-06:00] Running setup: rooms
+[INFO] [35bacb77-558e-4685-9644-45f84861b397] [2017-11-27 14:32:28 GMT-06:00] Running setup: messages
+[INFO] [773338cd-9eb9-491d-8e1b-e31aeb552062] [2017-11-27 14:35:52 GMT-06:00] Running setup: users
+[INFO] [8081cfa0-367b-43b2-874a-17b4e4d76a98] [2017-11-27 14:35:52 GMT-06:00] Running setup: rooms
+[INFO] [6288e97b-96ac-48d0-a288-a280a4b7ef76] [2017-11-27 14:35:52 GMT-06:00] Running setup: messages
+[INFO] [64908509-053c-472c-bf2c-a4b8ef26469d] [2017-11-27 14:43:45 GMT-06:00] Running setup: users
+[INFO] [4cc7dfcc-676f-402b-a95f-ac112f5b4857] [2017-11-27 14:43:45 GMT-06:00] Running setup: rooms
+[INFO] [48584ddf-0835-4d32-8650-7f5f79007d50] [2017-11-27 14:43:46 GMT-06:00] Running setup: messages
+[INFO] [bf8cc414-ae40-4c03-acee-e613f08c15a2] [2017-11-27 14:50:58 GMT-06:00] Running setup: users
+[INFO] [229b9219-8fbc-4f17-a799-859fd84fb342] [2017-11-27 14:50:58 GMT-06:00] Running setup: rooms
+[INFO] [88f91f0f-3510-4691-a13f-29a58d71ebb6] [2017-11-27 14:50:58 GMT-06:00] Running setup: messages
+[INFO] [62bafc62-005d-45b5-aa23-46ba1cd02575] [2017-11-27 14:53:01 GMT-06:00] Running setup: users
+[INFO] [74b9770b-f754-4e76-8f10-8a8e467c1a28] [2017-11-27 14:53:01 GMT-06:00] Running setup: rooms
+[INFO] [17a6e36c-803b-4463-bd4f-7c6fa8401185] [2017-11-27 14:53:01 GMT-06:00] Running setup: messages
+[INFO] [7ba124da-cc8d-4c49-8486-881c169e58fb] [2017-11-27 14:57:23 GMT-06:00] Running setup: users
+[INFO] [c5de789b-d77f-4326-a2de-cc2413ad10f9] [2017-11-27 14:57:23 GMT-06:00] Running setup: rooms
+[INFO] [2b962b2f-9ef6-4f4f-a4fc-fe5fb0f20c1f] [2017-11-27 14:57:23 GMT-06:00] Running setup: messages
+[INFO] [0cbe8b6a-7ce5-488e-8710-82cdaf0d1499] [2017-11-27 15:00:52 GMT-06:00] Running setup: users
+[INFO] [3c11d6df-baf6-4377-8754-5bde2595112e] [2017-11-27 15:00:52 GMT-06:00] Running setup: rooms
+[INFO] [029f9c20-ec0f-4714-9f78-b233a202d7a2] [2017-11-27 15:00:52 GMT-06:00] Running setup: messages
+[INFO] [23de2ca8-5009-47b3-a690-5fe5053ab921] [2017-11-27 15:07:06 GMT-06:00] Running setup: users
+[INFO] [882f153e-1166-4787-b37f-6cac537deae5] [2017-11-27 15:07:06 GMT-06:00] Running setup: rooms
+[INFO] [82e3233e-521a-433a-abb1-e330506830bf] [2017-11-27 15:07:06 GMT-06:00] Running setup: messages
+[INFO] [1ffece7d-610e-4b8e-ad96-c92d93cbfa3a] [2017-11-27 15:10:34 GMT-06:00] Running setup: users
+[INFO] [83da1696-56aa-4335-8728-a0c98127ce45] [2017-11-27 15:10:34 GMT-06:00] Running setup: rooms
+[INFO] [c4dddd23-40d1-4ad7-9d29-4206038a31db] [2017-11-27 15:10:34 GMT-06:00] Running setup: messages
+[INFO] [1bcfcea2-2d22-4cf2-988d-718196223851] [2017-11-27 15:12:59 GMT-06:00] Running setup: users
+[INFO] [1112ee94-f708-4b8c-823c-a64ed426cf92] [2017-11-27 15:12:59 GMT-06:00] Running setup: rooms
+[INFO] [4847940f-e88e-4de5-8248-f34b81cfb89e] [2017-11-27 15:12:59 GMT-06:00] Running setup: messages
+[INFO] [a4b6933d-138b-43b0-be30-99c543fcedf7] [2017-11-27 15:16:23 GMT-06:00] Running setup: users
+[INFO] [451f65d8-2276-4b54-afe9-0b194caf508f] [2017-11-27 15:16:23 GMT-06:00] Running setup: rooms
+[INFO] [9cb06119-3226-48df-8b52-26a3df5c17d7] [2017-11-27 15:16:23 GMT-06:00] Running setup: messages
+[INFO] [4269c9d7-123b-40cd-ac20-1a70e4652413] [2017-11-27 15:20:49 GMT-06:00] Running setup: users
+[INFO] [9227cad9-a864-427d-a29a-c4a6bcb85885] [2017-11-27 15:20:49 GMT-06:00] Running setup: rooms
+[INFO] [70d28300-9742-4de8-ad57-f9b9c031e856] [2017-11-27 15:20:49 GMT-06:00] Running setup: messages
+[INFO] [b52c4547-816d-43fd-b372-8e8d83ff7f38] [2017-11-27 15:25:07 GMT-06:00] Running setup: users
+[INFO] [b0f2312a-a685-46ab-b045-36c96553ee78] [2017-11-27 15:25:07 GMT-06:00] Running setup: rooms
+[INFO] [713a3fbf-84c5-4f63-ae2c-593eaa3ed47b] [2017-11-27 15:25:07 GMT-06:00] Running setup: messages
+[INFO] [5a28fdef-bbca-4579-886f-42aa1f7f7e53] [2017-11-27 15:28:21 GMT-06:00] Running setup: users
+[INFO] [f786173f-00de-43aa-93a9-542b879b1ec3] [2017-11-27 15:28:21 GMT-06:00] Running setup: rooms
+[INFO] [935be94f-ce0f-412c-acef-292cae3accdf] [2017-11-27 15:28:21 GMT-06:00] Running setup: messages
+[INFO] [0a3e12b0-4b15-4d04-8d7b-dd35cd1a48a5] [2017-11-27 15:29:45 GMT-06:00] Running setup: users
+[INFO] [0ce9b1f9-2e5b-4c99-a5f7-fbf3c2c54a3a] [2017-11-27 15:29:45 GMT-06:00] Running setup: rooms
+[INFO] [1b062140-e50b-404c-9634-b3ac019cc196] [2017-11-27 15:29:45 GMT-06:00] Running setup: messages
+[INFO] [ec5af21d-90d6-4219-b85b-a8cd55ec162b] [2017-11-27 15:32:49 GMT-06:00] Running setup: users
+[INFO] [173d5791-5538-4a5d-b860-4074b7912e7f] [2017-11-27 15:32:50 GMT-06:00] Running setup: rooms
+[INFO] [6d4a0bd2-ddc8-4eea-aa5c-4f64a08699b7] [2017-11-27 15:32:50 GMT-06:00] Running setup: messages
+[INFO] [192828bd-9f3c-4ccb-af8c-2bbba70b6e49] [2017-11-27 15:33:23 GMT-06:00] Running setup: users
+[INFO] [41a7d6ad-e69f-4b03-9bab-ec30ea3ffaf9] [2017-11-27 15:33:23 GMT-06:00] Running setup: rooms
+[INFO] [4480c35b-98e8-45ab-b14b-3a9c3047320e] [2017-11-27 15:33:23 GMT-06:00] Running setup: messages
+[INFO] [1dcd4a8e-3285-4683-a327-53a2b4fad78e] [2017-11-27 15:37:12 GMT-06:00] Running setup: users
+[INFO] [4fd750a8-ad71-49df-89f8-6e9db32904aa] [2017-11-27 15:37:12 GMT-06:00] Running setup: rooms
+[INFO] [32bd3b46-9fa0-44b2-9a74-38488f70ecc5] [2017-11-27 15:37:12 GMT-06:00] Running setup: messages
+[INFO] [98984eaa-86e5-46d1-8cb5-e11f9bd6884c] [2017-11-27 15:42:38 GMT-06:00] Running setup: users
+[INFO] [588d2be2-adb4-4e92-8cd7-0aad118f5acd] [2017-11-27 15:42:38 GMT-06:00] Running setup: rooms
+[INFO] [4e0b7612-9221-4a85-bc08-857a55a9ccb9] [2017-11-27 15:42:38 GMT-06:00] Running setup: messages
+[INFO] [c5663245-2928-409e-877c-d4f211aaa415] [2017-11-27 15:44:36 GMT-06:00] Running setup: users
+[INFO] [29dfa17e-2268-43ee-947d-5cc427ce4dcf] [2017-11-27 15:44:36 GMT-06:00] Running setup: rooms
+[INFO] [c97a045d-8f8a-48f2-92c5-9b38292afe53] [2017-11-27 15:44:36 GMT-06:00] Running setup: messages
+[INFO] [7f3613d0-ec9d-4581-9961-ff1099b22d9b] [2017-11-27 15:53:58 GMT-06:00] Running setup: users
+[INFO] [37172e8c-d5fe-423b-a77e-e889fec8adb0] [2017-11-27 15:53:58 GMT-06:00] Running setup: rooms
+[INFO] [7db0daf8-b91f-4fdc-a400-8160efea337d] [2017-11-27 15:53:58 GMT-06:00] Running setup: messages
+[INFO] [4c446e36-bc5c-4907-9496-93f5e8d1f08b] [2017-11-27 15:57:13 GMT-06:00] Running setup: users
+[INFO] [d7eb0397-c2ac-4add-a7d3-a29a2cce425a] [2017-11-27 15:57:13 GMT-06:00] Running setup: rooms
+[INFO] [c757e5ec-3295-4c9b-b72b-95d28b509249] [2017-11-27 15:57:13 GMT-06:00] Running setup: messages
+[INFO] [51ae2d9a-acf4-481d-ae41-3c3b9f69e9c4] [2017-11-27 16:00:45 GMT-06:00] Running setup: users
+[INFO] [183aa439-cb23-4b95-aedf-b1061baf372a] [2017-11-27 16:00:45 GMT-06:00] Running setup: rooms
+[INFO] [0491ed42-2e17-41e3-8560-686e4d7827cb] [2017-11-27 16:00:45 GMT-06:00] Running setup: messages
+[INFO] [2e3805fd-a303-4f54-949e-37f3287ccbf3] [2017-11-27 16:03:20 GMT-06:00] Running setup: users
+[INFO] [898bc9cc-3aa6-4d53-b674-c8e8e0c55756] [2017-11-27 16:03:20 GMT-06:00] Running setup: rooms
+[INFO] [69115d02-77ce-443b-a148-506ec9622ab5] [2017-11-27 16:03:20 GMT-06:00] Running setup: messages
+[INFO] [1b235aa5-4e79-4c9b-8d05-a1c5896e1763] [2017-11-27 16:10:50 GMT-06:00] Running setup: users
+[INFO] [fa107079-37a7-4bae-8dbc-637c6ea4efc4] [2017-11-27 16:10:50 GMT-06:00] Running setup: rooms
+[INFO] [1b72b517-f9fd-4b77-9f68-3995dba64020] [2017-11-27 16:10:50 GMT-06:00] Running setup: messages
+[INFO] [b801d1ba-ec28-4ee8-82c6-404116cb395e] [2017-11-27 16:12:49 GMT-06:00] Running setup: users
+[INFO] [1570d3c9-1c0e-47f7-aab3-165e408fe099] [2017-11-27 16:12:49 GMT-06:00] Running setup: rooms
+[INFO] [9de8fe87-734f-43a2-9009-04f5ef744adf] [2017-11-27 16:12:49 GMT-06:00] Running setup: messages
+[INFO] [a0d2bc28-647e-41c9-86b7-2e8a98ad8648] [2017-11-27 16:16:29 GMT-06:00] Running setup: users
+[INFO] [db0f9d1a-9a3e-4702-b1a2-40413f6aa124] [2017-11-27 16:16:29 GMT-06:00] Running setup: rooms
+[INFO] [b08f71f7-ddd2-4ac4-b0d2-1ff595c5222a] [2017-11-27 16:16:29 GMT-06:00] Running setup: messages
+[INFO] [e6af627d-a043-49bc-9042-dfe2a0f4d8e8] [2017-11-27 16:19:15 GMT-06:00] Running setup: users
+[INFO] [62a6cf56-b50f-4bd8-9576-6f5b1bcc3d53] [2017-11-27 16:19:15 GMT-06:00] Running setup: rooms
+[INFO] [122ab3d0-489e-4f57-9850-960619522787] [2017-11-27 16:19:15 GMT-06:00] Running setup: messages
+[INFO] [55fc49ea-c864-48de-8cb4-badc665146e5] [2017-11-27 16:23:39 GMT-06:00] Running setup: users
+[INFO] [8fde0fcb-ed2c-4f4b-8fa8-593760e76471] [2017-11-27 16:23:39 GMT-06:00] Running setup: rooms
+[INFO] [dc18f95c-d2ca-4b80-8095-c643838c7d66] [2017-11-27 16:23:39 GMT-06:00] Running setup: messages
+[INFO] [e242eab1-c0cf-44f4-a0db-e32c20043bc3] [2017-11-27 16:26:20 GMT-06:00] Running setup: users
+[INFO] [1f335659-b9b6-46f9-8e3e-f7beb9d860b2] [2017-11-27 16:26:20 GMT-06:00] Running setup: rooms
+[INFO] [bd6eb0d4-d687-4f7c-80b6-67f97d2dfb03] [2017-11-27 16:26:20 GMT-06:00] Running setup: messages
+[INFO] [e4de7cec-4d95-4abc-8d86-ae7350aa634f] [2017-11-27 16:35:24 GMT-06:00] Running setup: users
+[INFO] [eecd3895-4ad6-4240-87c8-ad4d5d633b4a] [2017-11-27 16:35:24 GMT-06:00] Running setup: rooms
+[INFO] [83e53c1a-ae89-476f-b594-979893f7a6eb] [2017-11-27 16:35:24 GMT-06:00] Running setup: messages
+[INFO] [26577eab-8ab8-4681-9a29-ef099951be81] [2017-11-27 16:38:46 GMT-06:00] Running setup: users
+[INFO] [be7a4475-61da-4093-a625-fc0307bcedcb] [2017-11-27 16:38:46 GMT-06:00] Running setup: rooms
+[INFO] [edfe0249-f8be-4c37-8ecc-ab42e8c4225f] [2017-11-27 16:38:46 GMT-06:00] Running setup: messages
+[INFO] [66248b96-d18f-4e67-b375-e0ba94517276] [2017-11-27 16:41:18 GMT-06:00] Running setup: users
+[INFO] [f49b58d6-6ce7-463f-9710-0d486b64d1a4] [2017-11-27 16:41:18 GMT-06:00] Running setup: rooms
+[INFO] [57bc24ca-c6ae-47a4-9c86-5f59293b0ee8] [2017-11-27 16:41:18 GMT-06:00] Running setup: messages
+[INFO] [dcbf6359-9573-4e0e-b050-7235f2dd2837] [2017-11-27 16:44:13 GMT-06:00] Running setup: users
+[INFO] [a49792b2-78ed-4d87-b521-8a052b3da474] [2017-11-27 16:44:13 GMT-06:00] Running setup: rooms
+[INFO] [a88563d0-9f08-4885-ae90-e8fd261958c4] [2017-11-27 16:44:13 GMT-06:00] Running setup: messages
+[ERROR] [0dd9ecac-1175-491c-9bc0-29c18730915c] [2017-11-27 16:45:18 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"rooms_key\"\nDETAIL:  Key (roomname)=(ffs) already exists.")
+[ERROR] [cd6238d1-477d-42c5-9b64-08bec7178702] [2017-11-27 16:45:18 GMT-06:00] Error: error("ERROR:  duplicate key value violates unique constraint \"rooms_key\"\nDETAIL:  Key (roomname)=(ffs) already exists.")
+[ERROR] [cd1cd459-fcc2-4f67-ae47-9e6e985c2781] [2017-11-27 16:45:18 GMT-06:00] Error: error("error(\"ERROR:  duplicate key value violates unique constraint \\\"rooms_key\\\"\\nDETAIL:  Key (roomname)=(ffs) already exists.\")")
+[ERROR] [194ad5cb-392f-435a-af50-1d20e9d79f10] [2017-11-27 16:45:18 GMT-06:00] Error: error("error(\"error(\\\"ERROR:  duplicate key value violates unique constraint \\\\\\\"rooms_key\\\\\\\"\\\\nDETAIL:  Key (roomname)=(ffs) already exists.\\\")\")")
+[INFO] [9f81c406-b52f-4a0c-8d59-3d7efc945a1d] [2017-11-27 16:55:32 GMT-06:00] Running setup: users
+[INFO] [7b42afb6-d91c-4192-8f8c-ae368874b735] [2017-11-27 16:55:32 GMT-06:00] Running setup: rooms
+[INFO] [c45b6761-cbc9-4bb7-91d3-d2f5345f4c23] [2017-11-27 16:55:32 GMT-06:00] Running setup: messages
+[INFO] [26078f97-d2e8-4e87-bea0-3b4fde6eaf28] [2017-11-27 16:57:26 GMT-06:00] Running setup: users
+[INFO] [e98d0944-bba8-45ff-8a33-5ebae91f453e] [2017-11-27 16:57:26 GMT-06:00] Running setup: rooms
+[INFO] [4bcb02c8-84b2-48de-ba08-b685ac351590] [2017-11-27 16:57:26 GMT-06:00] Running setup: messages
+[INFO] [a6708c7a-cd94-4d7c-a1df-f8d76596a1c3] [2017-11-27 16:58:47 GMT-06:00] Running setup: users
+[INFO] [798d5725-0c37-4302-b2d2-1b3c53fbcadb] [2017-11-27 16:58:47 GMT-06:00] Running setup: rooms
+[INFO] [ef117ae4-8353-4a1d-9034-8c07e703fafa] [2017-11-27 16:58:47 GMT-06:00] Running setup: messages
+[INFO] [6059e5b7-81ed-4577-b290-c2fd93d879d8] [2017-11-27 17:00:43 GMT-06:00] Running setup: users
+[INFO] [c7f93a8a-828e-442c-9d19-0e731f1cf0f5] [2017-11-27 17:00:43 GMT-06:00] Running setup: rooms
+[INFO] [29bfbf0e-a908-4418-8b48-14d0f258dc64] [2017-11-27 17:00:43 GMT-06:00] Running setup: messages
+[INFO] [8cb8b45b-e33b-41b8-b2ad-e20bab1d9436] [2017-11-27 17:01:50 GMT-06:00] Running setup: users
+[INFO] [12d83a10-766e-47fc-a0e5-6faa45f4ea10] [2017-11-27 17:01:50 GMT-06:00] Running setup: rooms
+[INFO] [6d7ea524-b781-48bd-a591-0c253728b7dc] [2017-11-27 17:01:50 GMT-06:00] Running setup: messages

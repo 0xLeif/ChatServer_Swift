@@ -47,10 +47,10 @@ class UserAPI {
         return try all()
     }
     
-    static func newUser(withHandle handle: String, rooms: [Room] = [], friends: [User] = []) throws -> [String: Any] {
+    static func newUser(withHandle handle: String, room: String = "lobby", friends: [String] = []) throws -> [String: Any] {
         let user = User()
         user.handle = handle
-        user.rooms = rooms
+        user.room = room
         user.friends = friends
 		try user.create()
         return user.asDictionary()
@@ -70,16 +70,14 @@ class UserAPI {
         guard let json = json,
             let dict = try json.jsonDecode() as? [String: Any],
             let handle = dict["handle"] as? String,
-            let rooms = dict["rooms"] as? [Room],
-            let friends = dict["friends"] as? [User] else {
+            let room = dict["room"] as? String,
+            let friends = dict["friends"] as? [String] else {
                 return "Invalid parameters"
         }
-        
         let user = try User.user(withHandle: handle)
-        user.rooms = rooms
+        user.room = room
         user.friends = friends
         try user.save()
-        
         return try user.asDictionary().jsonEncodedString()
     }
     

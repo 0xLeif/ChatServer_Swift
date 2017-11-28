@@ -1,12 +1,21 @@
 FROM perfectlysoft/perfectassistant:3.1
-RUN apt-get -y update && apt-get install -y libmysqlclient-dev
-# Perfect-COpenSSL-Linux.git--3256536965809212650/PADockerfile
+RUN apt-get -y update && apt-get install -y libxml2-dev
+# Perfect-LinuxBridge.git--1864736334381986583/PADockerfile
+RUN apt-get -y update && apt-get install -y uuid-dev
+
+# Perfect-libcurl.git-8636214530623497587/PADockerfile
+RUN apt-get -y update && apt-get install -y libcurl4-openssl-dev
+
+# Perfect-COpenSSL-Linux.git-3250139937711082277/PADockerfile
 RUN apt-get -y update && apt-get install -y libssl-dev
 
-# Perfect-mysqlclient-Linux.git-4179261140098139060/PADockerfile
+# Perfect-libpq-linux.git-8289080140457631681/PADockerfile
+RUN apt-get -y update && apt-get install -y libpq-dev
+
+# Perfect-XML.git-1935289635014601499/PADockerfile
+RUN apt-get -y update && apt-get install -y libxml2-dev pkg-config
+
+# Perfect-mysqlclient-Linux.git--465349886883175358/PADockerfile
 RUN apt-get -y update && apt-get install -y libmysqlclient-dev
 RUN sed -i -e 's/-fabi-version=2 -fno-omit-frame-pointer//g' /usr/lib/x86_64-linux-gnu/pkgconfig/mysqlclient.pc
-
-# Perfect-LinuxBridge.git--8963825882657873096/PADockerfile
-RUN apt-get -y update && apt-get install -y uuid-dev
 RUN rm -rf /var/lib/apt/lists/*
