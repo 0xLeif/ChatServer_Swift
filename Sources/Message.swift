@@ -10,7 +10,7 @@ import StORM
 import PostgresStORM
 
 class Message: PostgresStORM {
-    var timestamp: String = Date().timeIntervalSince1970.description
+    var timestamp: String = "\(Int(Date().timeIntervalSince1970.description))"
     var message: String
     var senderHandle: String
     var roomName: String

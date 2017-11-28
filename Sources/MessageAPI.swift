@@ -53,7 +53,12 @@ class MessageAPI {
         try message.create()
         return message.asDictionary()
     }
-    
+	
+	static func newMessage(_ message: Message) throws -> Message {
+		try message.create()
+		return message
+	}
+	
     static func newMessage(withJSONRequest json: String?) throws -> String {
         guard let json = json,
             let dict = try json.jsonDecode() as? [String: Any],
