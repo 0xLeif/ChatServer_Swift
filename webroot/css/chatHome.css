@@ -1,217 +1,50 @@
-
-
 .chat-window {
   width               : 100%;
   min-width           : 1024px;
   height              : 100%;
   min-height          : 1024px;
   position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
+  overflow            : auto;
   background          : rgba(148, 132, 213, 1.0);
 }
 a {
   text-decoration     : none;
 }
+body{
+margin                : 0px, 0px, 0px, 0px;
+}
+
 div {
   -webkit-text-size-adjust: none;
 }
-.chat-home .rectangle {
+.rooms {
   background          : rgba(86, 12, 117, 1.0);
-  width               : 112px;
-  left                : 0px;
-  top                 : 0px;
-  position            : absolute;
-  margin              : 0;
-  height              : 1024px;
-  border-style        : solid;
-  border-width        : 1;
-  border-color        : rgba(150, 150, 150, 1.0);
-  opacity             : 0.25;
+  width               : 10%;
+  height              : 100%;
+  float               : left;
 }
-.chat-home .view1 {
-  background          : rgba(86, 12, 117, 1.0);
-  width               : 284px;
-  left                : 0px;
-  top                 : 0px;
-  position            : absolute;
-  margin              : 0;
-  height              : 1024px;
-  border-style        : solid;
-  border-width        : 1;
-  border-color        : rgba(150, 150, 150, 1.0);
-  opacity             : 0.25;
-}
-.chat-home .label1 {
+
+.currentInfo {
   background          : rgba(255, 255, 255, 0.0);
-  width               : 672px;
-  left                : 309px;
-  top                 : 75px;
-  position            : absolute;
-  margin              : 0;
-  height              : auto;
-  font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
+  height              : 10%;
+  font-size           : 12.0px;
   color               : rgba(32, 30, 32, 1.0);
   text-align          : justify;
   line-height         : 20.0px;
 }
-.chat-home .view2 {
+.friends {
   background          : rgba(86, 12, 117, 0.0);
-  width               : 740px;
-  left                : 284px;
-  top                 : 0px;
-  position            : absolute;
-  margin              : 0;
-  height              : 1024px;
-  opacity             : 0.25;
+  width               : 20%;
+  height              : 90%;
+  float               : left;
 }
-.chat-home .view3 {
+.messages {
   background          : rgba(86, 12, 117, 0.0);
-  width               : 740px;
-  left                : 284px;
-  top                 : 55px;
-  position            : absolute;
-  margin              : 0;
-  height              : 623px;
-  opacity             : 0.25;
+  width               : 70%;
+  height              : 100%;
+  left                : 30%;
+  float               : left;
 }
-.chat-home .label2 {
-  background          : rgba(255, 255, 255, 0.0);
-  width               : 112px;
-  left                : 142px;
-  top                 : 64px;
-  position            : absolute;
-  margin              : 0;
-  height              : auto;
-  font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(32, 30, 32, 1.0);
-  text-align          : justify;
-  line-height         : 20.0px;
-}
-.chat-home .view4 {
-  background          : rgba(86, 12, 117, 1.0);
-  width               : 1024px;
-  left                : 0px;
-  top                 : 0px;
-  position            : absolute;
-  margin              : 0;
-  height              : 55px;
-  border-style        : solid;
-  border-width        : 1;
-  border-color        : rgba(150, 150, 150, 1.0);
-  opacity             : 0.25;
-}
-.chat-home .input-textarea {
-  background          : rgba(255, 255, 255, 0.0);
-  width               : 672px;
-  left                : 318px;
-  top                 : 701px;
-  position            : absolute;
-  margin              : 0;
-  height              : 292px;
-  opacity             : 0.58;
-}
-.chat-home .input-textarea .input-background {
-  background          : rgba(255, 255, 255, 0.0);
-  width               : 672px;
-  left                : 0px;
-  top                 : 0px;
-  position            : absolute;
-  margin              : 0;
-  height              : 292px;
-}
-.chat-home .input-textarea .text-area-content {
-  background          : rgba(255, 255, 255, 0.0);
-  width               : 623px;
-  left                : 24px;
-  top                 : 16px;
-  position            : absolute;
-  margin              : 0;
-  height              : auto;
-  font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(74, 73, 74, 1.0);
-  text-align          : justify;
-  line-height         : 20.0px;
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+.rooms Input{
+    width:              95%;
 }
